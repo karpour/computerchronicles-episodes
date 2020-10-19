@@ -11,7 +11,22 @@ return out;
 }
 */
 
-const tvdb_eps = [
+type TheTVDBMetadata = {
+    tvdb_episode: string,
+    tvdb_title: string,
+    tvdb_description: string,
+    tvdb_guests?: string | string[],
+    tvdb_demos?: string,
+    tvdb_copyright?: string,
+    tvdb_broadcastyear?: string,
+    tvdb_broadcastmonthyear?: string,
+    ia_identifier?: string,
+    ia_identifier2?:string,
+    tvdb_date?: string,
+    needs_fixing?: true,
+}
+
+const tvdb_eps:TheTVDBMetadata[] = [
     {
         tvdb_episode: "S01E01",
         tvdb_title: "Mainframes to Minis to Micros",
@@ -56,7 +71,7 @@ const tvdb_eps = [
         tvdb_demos: "CP/MUNIXXenix, MS/DOS, Apple IIe & AppleTalk.",
         tvdb_copyright: "1984",
         tvdb_broadcastmonthyear: "March 1984",
-        is_identifier: "Operatin1984",
+        ia_identifier: "Operatin1984",
         tvdb_date: "March 12, 1984"
     },
     {
@@ -371,7 +386,7 @@ const tvdb_eps = [
         tvdb_description: "Mainframe and network databases for computer users.",
         tvdb_guests: "Gary Kildall, DRI; Roger Summit, Dialog; Jay Fitzgerald, The Source; Paul Schindler, Info Syst News",
         tvdb_demos: "The Source, CompuServe, Dialog Information Services",
-        is_identifier: "Database1984",
+        ia_identifier: "Database1984",
         tvdb_date: "May 7, 1985"
     },
     {
@@ -397,7 +412,7 @@ const tvdb_eps = [
         tvdb_episode: "S02E19",
         tvdb_title: "Robots (1985)",
         tvdb_description: "A visit to the High Tech Expo in Tsukuba, Japan for a look at the latest Japanese robotics technology. Features Sony, Toshiba, Fujitsu, Fanuc, NEC, and others. Plus a robot from Waseda University that can play the organ!",
-        is_identifier: "Robots-J1985",
+        ia_identifier: "Robots-J1985",
         tvdb_date: "May 28, 1985"
     },
     {
@@ -659,7 +674,7 @@ const tvdb_eps = [
         tvdb_title: "Educational Software: Part 2",
         tvdb_description: "A look at on-line educational services and self-teaching software programs.",
         tvdb_demos: "InfoMinder, National Gallery of Art, Talking Software Pre-ReadersThe Balancing Act, Plato.",
-        is_identifier: "Educatio1986_2",
+        ia_identifier: "Educatio1986_2",
         tvdb_date: "September 23, 1986"
     },
     {
@@ -667,7 +682,7 @@ const tvdb_eps = [
         tvdb_title: "MIDI Music",
         tvdb_description: "Computers and music, MIDI machines and interfaces, and music composition software.",
         tvdb_demos: "Casio SK-1 Synthesizer, Atari ST, Activision's Music Studio, ADAP Sampler, DSP-1000, Apple II GS, Ensoniq Sound Chip, Soundscape, Commodore AmigaEZ Track, Kidnotes.",
-        is_identifier: "MIDIMusi1986",
+        ia_identifier: "MIDIMusi1986",
         tvdb_date: "September 30, 1986"
     },
     {
@@ -702,7 +717,7 @@ const tvdb_eps = [
         tvdb_title: "Desktop Publishing: Part 1",
         tvdb_description: "First of a two-part series on desktop publishing focusing on new software applications for the Macintosh.",
         tvdb_demos: "Comic Works, Ready, Set, Go, Fontographer, Fluent Fonts, Right Now, Desktop Art.",
-        is_identifier: "DesktopP1986",
+        ia_identifier: "DesktopP1986",
         tvdb_date: "October 28, 1986"
     },
     {
@@ -747,7 +762,7 @@ const tvdb_eps = [
         tvdb_description: "A user's guide to project management programs, strategies, and approaches.",
         tvdb_guests: "Jim Dunnigan, Microsoft; David Bryan, Breakthrough Software; Nancy Ann Twomey, Computer Assoc; Glenn Katz, Stanford; Gary Kildall, Digital Research",
         tvdb_demos: "MacProjectTimeline, Microsoft Project, MicroPlanner Plus, Superproject Plus 2.0",
-        is_identifier: "ProjectM1986",
+        ia_identifier: "ProjectM1986",
         tvdb_date: "December 2, 1986"
     },
     {
@@ -802,7 +817,7 @@ const tvdb_eps = [
         tvdb_title: "Intelligent Buildings",
         tvdb_description: "A survey of the technology embedded in modern office buildings and private homes. Shot in Hong Kong.",
         tvdb_guests: "Dr. Po S. Chung, Chinese University HK; Martin Spurrier, HongKong Land Group; R. A. Guy, HS Property Management; Donald Birch, Cathay Pacific; P G H Greene, HongKong Bank; Eric Vincent, Cable & Wireless; Ronald Suen, Kowloon Hotel; William Phillips, Baring Securities; Alfred Ho, Government Info Services",
-        is_identifier: "Intellig1987",
+        ia_identifier: "Intellig1987",
         tvdb_date: "January 20, 1987"
     },
     {
@@ -826,7 +841,7 @@ const tvdb_eps = [
         tvdb_description: "A review of the latest software titles to help you manage and file your income taxes including a look at on-line filing.",
         tvdb_guests: "Henry Hilton, Double Eagle Software; Susan Morgan, Softview; James Petersen, Best Programs; Michael Chipman, ChipSoft; Gary Kildall, Digital Research",
         tvdb_demos: "Tax Advantage, Mac-in-Tax, PC TaxCut, TurboTax",
-        is_identifier: "TaxPrepa1987",
+        ia_identifier: "TaxPrepa1987",
         tvdb_date: "February 10, 1987"
     },
     {
@@ -835,7 +850,7 @@ const tvdb_eps = [
         tvdb_description: "A review of the latest laptop computers, new display screen technology and common applications..",
         tvdb_guests: "Bob Wade, Tany/Radio Shack; James Barlett, NEC; Andrew Czernek, Zenith Data Systems; Thomas Sherrard, Toshiba; Britt Blaser, Dynamac; Gary Kildall, Digital Research",
         tvdb_demos: "Workslate, Tandy Model 100 & 200, NEC Multispeed, Zenith Z-181, Toshiba T-1100 & T-3100, Grid Laptop, Mac Portable",
-        is_identifier: "Portable1987",
+        ia_identifier: "Portable1987",
         tvdb_date: "February 17, 1987"
     },
     {
@@ -853,7 +868,7 @@ const tvdb_eps = [
         tvdb_description: "Computers are moving form math and engineering to the world of the arts. A look at how artists are using computer technology.",
         tvdb_guests: "Eddie Dombrower, DOM Dance Press; Larry Friedlander, Stanford; Charles Kerns, Stanford; John Burke, Oakland Museum; Stacy Mitchell, Great Wave Software",
         tvdb_demos: "DOM Dance Notation, PatchworkTheater, GameMac, VisionMac, SpinConcertWare, Terpsichore.",
-        is_identifier: "Computer1987",
+        ia_identifier: "Computer1987",
         tvdb_date: "March 3, 1987"
     },
     {
@@ -862,7 +877,7 @@ const tvdb_eps = [
         tvdb_description: "A review of how computers are being used in innovative programs to teach basic literacy skills to adults.",
         tvdb_guests: "John Fleischman, La Puente Adult Schools; Jane Nissen Laidley, People's Computer Co; Dr. John Henry Martin, IBM; Gary Kildall, Digital Research",
         tvdb_demos: "LEAP Functional Literacy, Adult Literacy and Learning, Maze Mania",
-        is_identifier: "Computer1987_2",
+        ia_identifier: "Computer1987_2",
         tvdb_date: "March 10, 1987"
     },
     {
@@ -871,7 +886,7 @@ const tvdb_eps = [
         tvdb_description: "Lotteries, exotic horse racing bets and high-tech slot machines are all made possible by new computer technology.",
         tvdb_guests: "Robin Cobbey, Computer Sports World; Michael Roxborough, LV Sports Consultant; Robert Archer, PDS Sports; Michael Orkin, Cal State Univ Hayward; George Morrow, Morrow Computing",
         tvdb_demos: "NBA On-Line, Golden Gate Fields, Horserace Handicapping, Pro Football Handicapping",
-        is_identifier: "Computer1987_3",
+        ia_identifier: "Computer1987_3",
         tvdb_date: "March 17, 1987"
     },
     {
@@ -891,7 +906,7 @@ const tvdb_eps = [
         tvdb_description: "Part two of a series on business applications, this time focusing on spreadsheets.",
         tvdb_guests: "Larry Gross, Lotus Development; Sam Savage, General Optimization; Adam Osborne, Paperback Software; Eric Gaer, Daybreak Technologies; Robert Firmin, Javelin Software",
         tvdb_demos: "Lotus HAL, What's Best, VP Planner, SILK, Javelin.",
-        is_identifier: "Business1987_2",
+        ia_identifier: "Business1987_2",
         tvdb_date: "March 31, 1987"
     },
     {
@@ -918,7 +933,7 @@ const tvdb_eps = [
         tvdb_description: "A review of the new Macintosh computers and their ability to emulate MS-DOS machines and run IBM compatible applications.",
         tvdb_guests: "Charles Oppenheimer, Apple; Didier Diaz, Apple; George Morrow, Nestar; Jan Lewis, Palo Alto Research Group; Gary Kildall, Digital Research",
         tvdb_demos: "Mac SE, Mac II",
-        is_identifier: "TheNewMa1987",
+        ia_identifier: "TheNewMa1987",
         tvdb_date: "April 21, 1987"
     },
     {
@@ -941,7 +956,7 @@ const tvdb_eps = [
         tvdb_episode: "S04E34",
         tvdb_title: "PC Clones from Asia",
         tvdb_description: "In the late 1980's, Taiwan was the world's leading producer of scanners, monitors, and many other computer products. This program goes to Taiwan to look at the center of the Asian computer industry. Included are visits to leading domestic computer companies such as Mitac, Microtek, Tatung, and Multitech (now Acer). Also coverage of American technology companies manufacturing in Taiwan such as Atari, Texas Instruments, and IBM. Featured also is a visit to Taiwan's Silicon Valley, called Science Park, and to Taiwan's major computer trade show, Computex.",
-        is_identifier: "CC434_asian_clones",
+        ia_identifier: "CC434_asian_clones",
         tvdb_date: "May 12, 1987"
     },
     {
@@ -971,14 +986,14 @@ const tvdb_eps = [
         tvdb_title: "Local Area Networks: Part 1 - IBM Compatibles",
         tvdb_description: "It didn't take long after the introduction of personal computers for users to want to network their PCs and share files and peripherals. This program looks at some early networking technologies incuding Grapevine, EasyLAN, 3Com, and Novell.",
         tvdb_demos: "Grapevine, EasyLAN, 3Com, and Novell",
-        is_identifier: "DesktopP1986",
+        ia_identifier: "DesktopP1986",
     },
     {
         tvdb_episode: "S05E05",
         tvdb_title: "Local Area Networks: Part 2 - Apple",
         tvdb_description: "A look at early attempts to network personal computers. This show focuses on Apple products including Appletalk, AppleShare FileServer, and MacLink. Also includes a look at Apple networks in use at Arthur Young & Company and at Stanford University.",
         tvdb_demos: "Appletalk, AppleShare FileServer, and MacLink",
-        is_identifier: "networks1",
+        ia_identifier: "networks1",
     },
     {
         tvdb_episode: "S05E06",
@@ -1030,7 +1045,7 @@ const tvdb_eps = [
         tvdb_title: "MacWorld San Francisco (1988)",
         tvdb_description: "On location coverage of the annual winter MacWorld Expo in San Francisco. Big stories at this MacWorld were desktop publishing, new color computers, HyperCard, and PC emulators.",
         tvdb_guests: "George Morrow, Jerry Borrell and Jan Lewis.",
-        is_identifier: "macworld_3",
+        ia_identifier: "macworld_3",
     },
     {
         tvdb_episode: "S05E13",
@@ -1086,7 +1101,7 @@ const tvdb_eps = [
         tvdb_title: "Business Graphics: Part 1 - Mac",
         tvdb_description: "A look at how computers are now being used as graphics tools by business.",
         tvdb_demos: "MacDraw II from Claris, Microsoft's Excel, Cricket Presents from Cricket Software, Adobe Illustrator, and ImageMaker.",
-        is_identifier: "CC519_business_graphics_1",
+        ia_identifier: "CC519_business_graphics_1",
     },
     {
         tvdb_episode: "S05E20",
@@ -1117,7 +1132,7 @@ const tvdb_eps = [
         tvdb_title: "Add-On Boards & Cards",
         tvdb_description: "In the early days of PCs, you had to know how to open up the box and add the functionality you really wanted when you bought the computer. This program looks at some of the upgrade options.",
         tvdb_demos: "AST's Rampage 286 board, Paradise Systems' VGA Plus Graphics card, IBM's Inboard/386, Quadram's JT Fax board, The TV Producer board for the Macintosh II",
-        is_identifier: "CC524_add-on_boards",
+        ia_identifier: "CC524_add-on_boards",
     },
     {
         tvdb_episode: "S05E25",
@@ -1653,7 +1668,7 @@ const tvdb_eps = [
         tvdb_description: "A 1991 rebroadcast, during the first Gulf War, of an earlier program looking at the use of computer technology by the Defense Department. Includes coverage of flight simulators, expert systems and artificial intelligence used in weapons systems, military robots being developed at Carnegie Mellon University, research in the Strategic Defense Initiative program, and the relationship between Silicon Valley and DARPA.",
         tvdb_guests: "Gary Kildall and Raj Reddy.",
         tvdb_broadcastyear: "1986",
-        is_identifier: "pentagon1",
+        ia_identifier: "pentagon1",
         tvdb_date: "February 5, 1991"
     },
     {
@@ -1685,7 +1700,7 @@ const tvdb_eps = [
         tvdb_episode: "S08E23",
         tvdb_title: "Flight Simulators",
         tvdb_description: "A review of flight simulator software.",
-        tvsb_demos: "Falcon AT 1.11, F-15 Strike Eagle II, Jet Fighter 1.5, A-10 Tank Killer 1.2, subLOGIC's Flight Simulator ATP 1.0, Microsoft Flight Simulator 4.0",
+        tvdb_demos: "Falcon AT 1.11, F-15 Strike Eagle II, Jet Fighter 1.5, A-10 Tank Killer 1.2, subLOGIC's Flight Simulator ATP 1.0, Microsoft Flight Simulator 4.0",
         tvdb_guests: "Gilman Louie, President of Spectrum Holobyte, Major Bill Stealey, President of MicroProse, and Moses Ma, Chairman of Velocity Development.",
         tvdb_broadcastyear: "1990",
         ia_identifier: "episode_823",
@@ -1798,7 +1813,7 @@ const tvdb_eps = [
         tvdb_episode: "S09E02",
         tvdb_title: "Windows Applications",
         tvdb_description: "With the advent of Windows 1.0, software vendors came out with new programs to take advantage of the new GUI operating system. This program demonstrates several of those new applications.",
-        tvsb_demos: "Norton Desktop for Windows, WordPerfect for Windows, Lotus 1-2-3 for Windows, Microsoft Works for Windows, PFS WindowWorks, Microsoft Money, Visual Basic for Windows, Borland's ObjectVision, Microsoft Publisher",
+        tvdb_demos: "Norton Desktop for Windows, WordPerfect for Windows, Lotus 1-2-3 for Windows, Microsoft Works for Windows, PFS WindowWorks, Microsoft Money, Visual Basic for Windows, Borland's ObjectVision, Microsoft Publisher",
         tvdb_broadcastyear: "1991",
         ia_identifier: "windowsapps",
     },
@@ -1847,7 +1862,7 @@ const tvdb_eps = [
         tvdb_episode: "S09E08",
         tvdb_title: "Computer Games",
         tvdb_description: "A look at the hottest computer games in the early 1990's. Also features a visit to Lucasfilm Games and their development process for titles such as Indiana Jones, The Fate of Atlantis, Monkey Island 2, and Lechuck's Revenge. Another segment looks at the InGolf Simulator from TOP Pro Sports, a game which actually teaches you how to play better golf.",
-        tvsb_demos: "Wordtris, Crisis in the Kremlin, Earl Weaver Baseball II, Railroad Tycoon, Playmaker Football 2.0, King's Quest V, The Games: Winter Challenge, TSN (The Sierra Network), TOP Pro Sports InGolf Simulator, Lucasfilm Games Indiana Jones, Lucasfilm Games The Fate of Atlantis, Lucasfilm Games Monkey Island 2, Lucasfilm Games Lechuck's Revenge",
+        tvdb_demos: "Wordtris, Crisis in the Kremlin, Earl Weaver Baseball II, Railroad Tycoon, Playmaker Football 2.0, King's Quest V, The Games: Winter Challenge, TSN (The Sierra Network), TOP Pro Sports InGolf Simulator, Lucasfilm Games Indiana Jones, Lucasfilm Games The Fate of Atlantis, Lucasfilm Games Monkey Island 2, Lucasfilm Games Lechuck's Revenge",
         tvdb_guests: "Gilman Louie, President of Spectrum Holobyte; Michael Brook, Electronic Arts; Bruce Shelley, MicroProse.",
         tvdb_broadcastyear: "1991",
         ia_identifier: "episode_932",
@@ -1877,7 +1892,7 @@ const tvdb_eps = [
         tvdb_episode: "S09E12",
         tvdb_title: "Groupware",
         tvdb_description: "Groupware was the buzzword of the early 1990s as users wanted to find ways to connect their personal computers, their applications and their data, and find platforms for sharing and collaborative work.",
-        tvb_demos: "Lotus Notes, Higgins, Meeting Maker, Instant Update, Aspects, BeyondMail",
+        tvdb_demos: "Lotus Notes, Higgins, Meeting Maker, Instant Update, Aspects, BeyondMail",
         tvdb_broadcastmonthyear: "December 1991",
         ia_identifier: "groupware_2",
     },
@@ -2709,7 +2724,7 @@ const tvdb_eps = [
         tvdb_title: "PC Expo (1994)",
         tvdb_description: "On location coverage of the annual PC Expo trade show in New York. Featured",
         tvdb_guests: "Stewart Alsop, Larry Magid, Tim Bajarin, and Phillipe Kahn.",
-        is_identifier: "PCExpo",
+        ia_identifier: "PCExpo",
     },
     {
         tvdb_episode: "S12E02",
@@ -2896,7 +2911,6 @@ const tvdb_eps = [
         tvdb_demos: "how to install SIMMs, MemMaker, QAPlus for Windows, RAM Doubler 1.51, Quarterdeck's QEMM 7.5, Multimedia Cloaking Utility from Helix Software, and Netroom 3.0.",
         ia_identifier: "LosingMe",
         ia_identifier2: "CC1227_losing_memory",
-        ia_identifier3: "ar_cc183_losing_memory",
     },
     {
         tvdb_episode: "S12E28",
