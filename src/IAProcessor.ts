@@ -1,6 +1,7 @@
-import { CCEpisodeMetadata } from "./CCEpisodeMetadata";
-import iaMetadata, { IAMetadata } from "./InternetArchiveMetadata";
+import { CCEpisodeMetadata } from "./metadata/CCEpisodeMetadata";
+import iaMetadata, { IAMetadata } from "./metadata/InternetArchiveMetadata";
 import { dateToYYYYMMDD } from "./dateToYYYYMMDD";
+import removeDuplicates from "./removeDuplicates";
 
 export function processIAItems(items: IAMetadata[]): CCEpisodeMetadata[] {
     let iaProcessed: CCEpisodeMetadata[] = [];

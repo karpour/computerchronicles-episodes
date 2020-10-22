@@ -1,5 +1,5 @@
-import { CCEpisodeMetadata } from "./CCEpisodeMetadata";
-import iaMetadata from "./InternetArchiveMetadata";
+import { CCEpisodeMetadata } from "./metadata/CCEpisodeMetadata";
+import iaMetadata from "./metadata/InternetArchiveMetadata";
 import removeDuplicates from "./removeDuplicates";
 import tvdb_eps, { TVDBMetadata } from "./TVDBMetadata";
 

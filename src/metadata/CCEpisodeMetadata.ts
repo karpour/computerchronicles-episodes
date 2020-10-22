@@ -2,7 +2,7 @@ export type CCEpisodeMetadata = {
     airingDate?: string;
     episodeYear?: number;
     reRunOf?: string;
-    episodeNumber?: string;
+    episodeNumber?: number;
     episodeTitle: string;
     guests: string[];
     featuredProducts: string[];

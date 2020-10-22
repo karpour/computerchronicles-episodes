@@ -7,7 +7,7 @@ export type IAMetadata = {
     ia_date?: string,
     ia_proddate?: string,
     ia_subject?: string,
-    episodeNumber?: string
+    episodeNumber?: number
 }
 
 const iaMetadata: IAMetadata[] = [{
@@ -15,13 +15,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "As business migrated from the standalone PC to the networked PC, a hot new application area became groupware, enabling collaboration within a company. This program reviews Network Scheduler 3 from Powercore, Lotus Notes, WordPerfect Office, The Meeting Room from Eden Systems, GroupSystems 5 from Ventana, ShowMe 2.0 from SunSolutions, and LiveBoard from Xerox. Guests include Scott McNealy. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "1125",
-
+    episodeNumber: 1125,
 },
 {
     ia_title: "MacWorld Expo Boston 1994",
     ia_description: "On location coverage of the annual Boston MacWorld Expo. Guests include analyst Tim Bajarin and writer Stewart Alsop. New products covered include System 7.5, WordPerfect for Mac, Claris Office Suite, PowerBook, Loga Vista, Newton, Visioneer, Wacom Tablet, Hyperglot, Opcode Systems, and Solustan. Originally broadcast in 1994.Copyright 1994 Stewart Cheifet Productions.",
     ia_broadcastyear: 1994,
     ia_identifier: "1202",
+    episodeNumber: 1202,
     ia_year: 1994,
     ia_date: "1994-01-01T00:00:00.000Z",
     ia_subject: "macworld;macintosh;apple"
@@ -30,7 +31,8 @@ const iaMetadata: IAMetadata[] = [{
     ia_title: "E-Mail Update",
     ia_description: "A user's guide to new email tools. Demonstrations include Eudora Pro 4.1, Attachment Opener 2.0, Conversions Plus 4.6, Master Clips Email Animator, and Intel Create & Share. Originally broadcast in 1999.",
     ia_broadcastyear: 1999,
-    ia_identifier: "1652"
+    ia_identifier: "1652",
+    episodeNumber: 1652
 },
 {
     ia_title: "SPA Codie Awards 1998",
@@ -263,6 +265,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Highlights from the annual Consumer Electronics Show in Las Vegas. Products covered include Accolade's Hockey, Activision's Pitfall: The Mayan Adventure, Atari's Jaguar, Advanced Gravis Virtual Reality, Simon Personal Communicator, Amiga CD32, Compaq Presario 425, Video Blaster FS2000, Cyberdreams' CyberRace, Forte VFX-1 3D Head Mount, General Magic, Heartbeat Personal Trainer, Logitech Cyberman 3D Controller, Star Wars Screen Saver, Maxtor MobileMax 1.8\" Drive, Microsoft's Dinosaur, Nintendo's Project Reality, Philips Playboy Massage CD-I, City Streets for Windows, Sonic the Hedgehog, Spectrum Holobyte's Star Trek: The Next Generation, 3DO's Jurassic Park, Time Warner's Aegis, Ultratech's Mortal Combat, World Cup USA 94 Soccer, and Videonics' Digital Video Mixer. Originally broadcast in 1994. Copyright 1994 Stewart Cheifet Productions.",
     ia_broadcastyear: 1994,
     ia_identifier: "CC-CES1994-Episode1123",
+    episodeNumber: 1123,
     ia_year: 1994,
     ia_date: "1994-01-01T00:00:00.000Z",
     ia_proddate: "1994-01-01T00:00:00.000Z"
@@ -271,6 +274,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_title: "Computer Bowl VI - Part 2",
     ia_description: "The conclusion of the sixth annual Computer Bowl trivia game between high tech types from the east coast and the west coast. This was the All Star edition with MVPs selected from the first five Computer Bowl games. Contestants included Bill Gates, Bill Joy, Mitch Kapor, Bob Frankston, Neil Colvin, and Pamela McCorduck. The questioners were Andy Grove and Stewart Cheifet. Originally broadcast from San Jose in 1994. Copyright 1994 Stewart Cheifet Productions.",
     ia_identifier: "CC-ComputerBowl1994_2-Episode1152",
+    episodeNumber: 1152,
     ia_year: 1994,
     ia_date: "1994-01-01T00:00:00.000Z",
     ia_proddate: "1994-01-01T00:00:00.000Z",
@@ -281,7 +285,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "An early look at artificial Intelligence. Guests includes Edward Feigenbaum of Stanford University, Nils Nilsson of the AI Center at SRI International, Tom Kehler of Intellegenetics, Herb Lechner of SRI, and John McCarthy of Stanford. Featured demonstrations include Inferential Knowledge Engineering and the programming language LISP. Originally broadcast in 1984. Copyright 1984 Stewart Cheifet Productions.",
     ia_broadcastyear: 1984,
     ia_identifier: "CC1024_artificial_intelligence",
-    episodeNumber: "1024",
+    episodeNumber: 1024,
     ia_subject: "artificial intelligence;expert systems;knowledge engineering"
 },
 {
@@ -289,7 +293,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "On location coverage of the 1994 PC Expo trade show in New York. Companies featured include Symantec, IBM, Apple, Motorola, Borland, Toshiba, Sony, Hewlett Packard, and Epson. Guests include Tim Bajarin, Stewart Alsop, Larry Magid, and Phillipe Kahn. Originally broadcast in 1994. Copyright 1994 Stewart Cheifet Productions.",
     ia_broadcastyear: 1994,
     ia_identifier: "CC1201_pc_expo",
-    episodeNumber: "1201",
+    episodeNumber: 1201,
     ia_subject: "pc expo;trade show;new york"
 },
 {
@@ -297,7 +301,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The personal computer started out doing numbers, then text, and then graphics. This program looks at several applications for computer artists. Included are KPT Bryce, SmartSketch, Fractal Design's Dabbler, TrueSpace for Windows, Design Workshop for the Power Mac, Wacom Pad, Painter, Illustrator, and Photoshop. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "CC1205_computer_art",
-    episodeNumber: "1205",
+    episodeNumber: 1205,
     ia_subject: "art;graphics;painting"
 },
 {
@@ -305,7 +309,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "An annual review of cool new technology products for the holiday buying season, as selected by Stewart Cheifet, Paul Schindler of CMP, Tim Bajarin of Creative Strategies, and Ken Ratcliffe of PC Connection. Products reviewed include Lexmark's Ergonomic Keyboard, 7th Level's Complete Waste of Time, Banner Blue's Family Tree Maker, Maxis Gift Maker, Glider Pro, GPS Trailblazer, Greatest Paper Airplanes, the NEC Satellite Phone, Putt Putt from Humungous Entertainment, Sega's Road Rash II, the Simpsons Screen Saver from Berkeley Systems, Star Trek Interactive, T/Maker's Stradiwackius, and Wacom's Art Pad Dabble bundle.\nOriginally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "CC1210_consumer_buying_guide",
-    episodeNumber: "1210",
+    episodeNumber: 1210,
     ia_subject: "christmas;holiday;buying"
 },
 {
@@ -313,7 +317,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at the hot new computer games of 1995. Games covered include Voyeur, Astronomica, Wing Commander III: Heart of the Tiger, Master of Magic, Nascar Racing, Front Page Sports: Football Pro '95, Daedalus Encounter from Mechadeus, and Loadstar: The Legend of Tully Bodine. Includes visits to Electronic Arts and Rocket Science Games and an interview with \"The Fat Man\", George Sanger. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1218_greatest_games",
-    episodeNumber: "1218",
+    episodeNumber: 1218,
     ia_subject: "games;video games;computer games"
 },
 {
@@ -321,7 +325,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Computers and videogames have allowed couch potatoes to play sports and athletes to get better at their game. This program looked at several PC sports applications including Picture Perfect Golf, ESPN Baseball Tonight, UltraCoach for Windows, Mountain Biking, and Winning Hoops with Coack K. Also featured are an online golf tournament and Home Team Advantage, a computer based program to help coaches. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1219_pc_sports",
-    episodeNumber: "1219",
+    episodeNumber: 1219,
     ia_subject: "sports;baseball;coaching"
 },
 {
@@ -329,7 +333,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Computers have become a key tool in planning an investment strategy and building a retirement nest egg. This program looked at several investment programs including Value Screen Investment Survey, Prodigy Online Information Services, Windows on Wall Street, WealthBuilder, Plan Ahead Your Financial Future, Schwab's Street Smart, and MetaStock. Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1224_investment_software",
-    episodeNumber: "1224",
+    episodeNumber: 1224,
     ia_subject: "investment;wall street;stock market"
 },
 {
@@ -337,7 +341,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Personal computers have become a major component of modern educational systems. This program looks at some of the strides being made in computer based learning. Product demonstrations include Measurement in Motion, Grammar Games, Tangible Math, Inside the SAT, and The Musical World of Professor Piccolo. Companies profiled are Apple, Davidson & Associates, Logal, Princeton Review, and Opcode Interactive. Also featured are a visit to an Electronic Learning Fair and the online University of Phoenix. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1226_learning_on_a_computer",
-    episodeNumber: "1226",
+    episodeNumber: 1226,
     ia_subject: "learning;education;school"
 },
 {
@@ -345,14 +349,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "If you were a DOS user back in the early 1990's, you had to deal with \"insufficient memory\" issues. Over and over again. This program looks at solutions for expanding computer memory. Demonstrations include how to install SIMMs, MemMaker, QAPlus for Windows, RAM Doubler 1.51, Quarterdeck's QEMM 7.5, Multimedia Cloaking Utility from Helix Software, and Netroom 3.0. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1227_losing_memory",
-    episodeNumber: "1227",
+    episodeNumber: 1227,
     ia_subject: "memory;RAM;SIMM"
 },
 {
     ia_title: "CC 122 Computer Entrepreneurs",
     ia_description: "An early Computer Chronicles episode from the first season in 1984 featuring Steve Wozniak, Adam Osborne, Lore Harp, and Gene Amdahl. They discuss what it was like to do a tech startup in 1984. Hosted by Stewart Cheifet and Gary Kildall. Copyright 1984 Stewart Cheifet Productions.",
     ia_identifier: "CC122ComputerEntrepreneurs",
-    episodeNumber: "122",
+    episodeNumber: 122,
     ia_year: 1984,
     ia_date: "1984-01-01T00:00:00.000Z",
     ia_subject: "osborne; wozniak; trilogy; vector graphics; amdahl;vector graphics;paperback software;trilogy;apple;wozniak",
@@ -362,7 +366,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "In the mid 1990's many people were on line, but the internet and the world wide web were still a new phenomenon. This program looks at the new open world of the web. Demonstrations include Eudora, Anarchy, the WELL, WinCIM, InterACT.net, and HoTMetal Pro HTML Editor. Guests include New York Times technology writer John Markoff. Also features a profile of the band Severe Tire Damage, the first band to ever perform live over the internet. Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1232_internet",
-    episodeNumber: "1232",
+    episodeNumber: 1232,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "internet;web;online"
@@ -372,7 +376,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Technology leaders from the East and West coasts go at it in the seventh annual Computer Bowl, a quiz show designed to see which team knows more about computer trivia. Guest questioner is Nicholas Negroponte. Contestants include Andy Herzfeld and Joseph Alsop. Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1236_computer_bowl",
-    episodeNumber: "1236",
+    episodeNumber: 1236,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "Episode Year: 1995;Television Programs;Computers: History;Computer Bowl;Bill Gates;quiz;trivia"
@@ -382,7 +386,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Computers and the digital revolution forever changed the world of music. This program looks at several new approaches to creating and sharing music. Demonstrations include Vid Grid, Sound Toy, William Orbit Strange Cargo, So You Want to be a Rock & Roll Star, Rock & Roll On Your Own, Dylan:Highway 61 Interactive, Video Jam, and Vivace. Also featured is a visit to Todd Rundgren's sound studio in Sausalito, California and a preview of his CD-ROM entitled \"No World Order\". Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1238_interactive_music",
-    episodeNumber: "1238",
+    episodeNumber: 1238,
     ia_subject: "music;music video;todd rungren"
 },
 {
@@ -390,7 +394,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "An early look at supercomputers in the United States and Japan. Featured guests include George Michael, head of computer research of Lawrence Livermore National Laboratory, John Repp of Control Data Corporation, Dr. Hideo Aiso, Professor at Keio University in Japan, Dr. Hiroshi Kashiwagi, Chairman of Japan's National Supercomputer Project, and Dr. Yukio Mizuno, Senior Vice President of NEC. The program also features on location coverage in Japan of the country's supercomputer projects including the Hitachi S810-20 at the University of Tokyo and the Electro Technical Laboratory in Tsukuba, Japan. Originally broadcast in 1984. Copyright 1984 Stewart Cheifet Productions.",
     ia_broadcastyear: 1984,
     ia_identifier: "CC126_supercomputers",
-    episodeNumber: "126",
+    episodeNumber: 126,
     ia_subject: "supercomputer;japan;parallel processing"
 },
 {
@@ -398,7 +402,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "It was the biggest ever launch of a software product with stores opening at midnight and buyers around the world waiting to get their hands on... an operating system! It was Windows 95. This show looks at the hoopla surrounding the launch of Windows 95, the product itself, and several Windows 95 add-on products including Microsoft Office, Viking RAM Chips, Uninstaller, Trispectives Professional, and The Hive. Originally broadcast in 1995.\nCopyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1301_windows_95",
-    episodeNumber: "1301",
+    episodeNumber: 1301,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "windows;microsoft;operating systems"
@@ -408,7 +412,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A review of the best new games of the year. Games covered include In the First Degree, Buried in Time, Mech Warrior 2, ImagiNation Network, and Phantasmagoria. Plus a visit to Microsoft's Judgment Day, a conference for third-party game developers in Redmond, Washington. Originally broadcast in 1995.\nCopyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1308_greatest_games",
-    episodeNumber: "1308",
+    episodeNumber: 1308,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "games;mech warrior;phantasmagoria"
@@ -418,7 +422,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "On location coverage of the annual European Technology Roundtable Exhibition in Madrid, Spain. Guests include Microsoft Chairman Bill Gates, analyst Esther Dyson, Netscape founder Jim Clark, Ed Zander of Sun Microsystems, Roel Pieper of Tandem, Michael Rogers of Newsweek, and David Kirkpatrick of Fortune. Originally broadcast in 1995.Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1310_etre",
-    episodeNumber: "1310",
+    episodeNumber: 1310,
     ia_subject: "europe;madrid;bill gates"
 },
 {
@@ -426,7 +430,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The annual guide to holiday buying for technology products. Stewart Cheifet, Tim Bajarin, Chris Gorman and several technology writers offer up their selections for best new tech products of the season. Included are new web cams, PDAs, and desktop video editors. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1311_holiday_buying_guide",
-    episodeNumber: "1311",
+    episodeNumber: 1311,
     ia_subject: "consumer;holiday;shopping"
 },
 {
@@ -434,7 +438,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "SOHO stands for small office home office. This program looks at applications for the small business owner. Demonstrations include Microsoft Office 95, Microsoft Small Business Pack, MYOB Accounting, HP's OfficeJet LX, Syquest's EZ135 external hard drive, the Connectix QuickCam web camera for videoconferencing, and the BitSurfer ISDN modem from Motorola. Guests include San Francisco Examiner technology writer Tom Abate. Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1319_soho_software",
-    episodeNumber: "1319",
+    episodeNumber: 1319,
     ia_year: 1995,
     ia_date: "1995-12-15T00:00:00.000Z",
     ia_subject: "small business;home office"
@@ -444,7 +448,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "On location coverage of the Consumer Electronics Show in Las Vegas. This was the first consumer electronics show that was dominated by computer makers. New products introduced here included the DVD, Pentium PCs, and color handhelds. This program also includes highlights from the 1996 MacWorld Expo in San Francisco. Guest analyst is Tim Bajarin of Creative Strategies. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1320_winter_ces_1996",
-    episodeNumber: "1320",
+    episodeNumber: 1320,
     ia_subject: "macworld;consumer electronics;trade show"
 },
 {
@@ -452,7 +456,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "In the United States it's called the Silicon Valley, but in Scotland it's called Silicon Glen - the area between Glasgow and Edinburgh that is famous for high tech R&D. This program looks at several Scottish innovations including a supercomputer that maps road traffic, new low energy green lasers, intelligent phones, noise canceling headsets, distributed learning, and home energy management. Shot on location in Scotland. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1324_research_in_silicon_glen",
-    episodeNumber: "1324",
+    episodeNumber: 1324,
     ia_subject: "silicon glen;scotland;edinburgh"
 },
 {
@@ -460,7 +464,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Most of us use computers to do routine tasks like calculations, word processing, or graphics. But computers can do more - they can help you think. This program looks at several software thinking tools including Go Figure, WinMap, Project Kickstart, Which & Why, Decide Right, and IntelliMatch. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1325_software_thinking_tools",
-    episodeNumber: "1325",
+    episodeNumber: 1325,
     ia_subject: "decision;thinking;brainstorming"
 },
 {
@@ -468,7 +472,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at how senior citizens are using computer technology. Product demonstrations include Rand McNally's TripMaker 1996, WillMaker from Nolo Press, and Family Tree Maker from Banner Blue. Also includes a visit to a senior center to see how senior citizens are learning to use computers and various software applications of particular interest to them. Originally broadcast in 1995.\nCopyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1327_computing_seniors",
-    episodeNumber: "1327",
+    episodeNumber: 1327,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "seniors;senior citizen;retired"
@@ -478,7 +482,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Ten years after the PC revolution, experts were saying the PC model is obsolete. This program looks at several fresh approaches to the personal computer. Included are the TransPhone net terminal, Apple's multimedia Pippin Power Mac, the brand new Palm Pilot from U.S. Robotics, the BeBox using the Be operating system, and Oracle's new NC or Network Computer. Guests include Bruce Tognazinni, author of \"Tog on Software Design. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1331_new_pcs",
-    episodeNumber: "1331",
+    episodeNumber: 1331,
     ia_subject: "palm pilot;apple pippin;oracle Network Computer"
 },
 {
@@ -486,7 +490,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at how the health care industry is using computer technology. Products demonstrated include The Doctor's Book of Home Remedies, Multimedia Workout, DynaPulse 200M, The Family Doctor, Stanford University's Pain Clinic, and I-3 Design's Stretchercise. Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1335_computers_and_healthcare",
-    episodeNumber: "1335",
+    episodeNumber: 1335,
     ia_subject: "health;medicine;exercise"
 },
 {
@@ -494,7 +498,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at the best new software programs of the year, those which won Codie Awards from the Software Publishers Association. Featured titles include Edmark's Thinking Things, Hollywood from Theatrix, Dark Forces from Lucas Arts, and Rick Smolan's Passage to Vietnam from Against All Odds. Also includes coverage of the Codies Awards event in Los Angeles with presenters Robert Wuhl and Todd Rundgren. The Lifetime Achievement Award is given to Netscape founder Jim Clark. Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "CC1349_codies_special",
-    episodeNumber: "1349",
+    episodeNumber: 1349,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "codie;software awards;netscape"
@@ -504,7 +508,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at early online shopping sites including Amazon, onsale.com, CyberCash, NetRadio, Verisign and Cybergold. Guests include Jeff Bezos, Jerry Kaplan, Magdalena Yesil, Gina Klein Jorasch and Robert Griggs. Originally broadcast in 1996.\nCopyright 1996 Stewart Cheifet Productions.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1407OnlineShopping",
-    episodeNumber: "1407",
+    episodeNumber: 1407,
     ia_year: 1996,
     ia_date: "1996-10-03T00:00:00.000Z",
     ia_subject: "amazon; online shopping; jeff bezos;cybergold;netradio;verisign;onsale.com"
@@ -514,7 +518,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Our annual review of the coolest new high-tech gadgets for the holiday season. Products covered include Connectix Color Quick Cam, Fieldworks Rugged Laptop FW7600, NetObject's Fusion, Symantec's Internet FastFind, MetaTool's Kai's Power Goo, Broderbund's Logical Journey of the Zoombinis, Ecco Pro, Neverhood, NewsCatcher, NHL 97, Polaroid's Photo Pad Scanner, Epson's Photo PC Camera, AT&T's Pocket Net Phone, Pyst, Quake, Quick View Plus, Surfman, The Mind Drive, VocalTec's Internet Phone, Blizzard's Warcraft II, Phillips Web TV, and Web Buddy from DataViz. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1411_consumer_buying_guide",
-    episodeNumber: "1411",
+    episodeNumber: 1411,
     ia_year: 1996,
     ia_date: "1996-01-01T00:00:00.000Z",
     ia_subject: "consumer;computer;gadget"
@@ -524,7 +528,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Digital photography got its start in the mid 1990's. This program looks at early examples of digital photography hardware and software. Included are demonstrations of the Fuji D5-7, Ricoh RDC2, Kodak DC25, LivePix, Adobe Photo Shop 4.0, HP DeskJet 693C, Epson Stylus Color 500, Sony DMM155, Logitech Pagescan Color, and Microtek ScanMaker E3. Guests include Michael Mcnamara of Popular Photography magazine, Kyla Carlson of PC Computing magazine, and John Goddard of PC World. Originally broadcast in 1996. Copyright 1996 Stewart Cheifet Productions.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1412_digital_photography",
-    episodeNumber: "1412",
+    episodeNumber: 1412,
     ia_subject: "digital photography;cameras;ink jet printer"
 },
 {
@@ -532,7 +536,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A review of the best new computer games of the year. Demonstrations include The Neverhood from DreamWorks Interactive, Shattered Steel from Interplay, Tomb Raider from Eidos, and Diablo from Blizzard. Also includes a visit to a Quake marathon and a tour of the usability lab at The Learning Company. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1415_greatest_games",
-    episodeNumber: "1415",
+    episodeNumber: 1415,
     ia_year: 1996,
     ia_date: "1996-01-01T00:00:00.000Z",
     ia_subject: "computer games;diablo;quake"
@@ -541,7 +545,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_title: "Internet TV",
     ia_description: "After hearing about convergence for years, the television and the computer finally have started to merge, with video images moving on to the PC and web pages showing up on the TV.  Copyright 1997 Stewart Cheifet Productions.",
     ia_identifier: "CC1416_internet_tv",
-    episodeNumber: "1416",
+    episodeNumber: 1416,
     ia_year: 1996,
     ia_subject: "television;internet;internet tv"
 },
@@ -550,7 +554,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at the best new products introduced at the annual COMDEX computer trade show in Las Vegas. Demonstrations include the ATI All-in-Wonder video card; Microsoft Office 97; Netscape Communicator, Navigator, and Constellation; and Play's Trinity Video Production System. Products reviewed on the convention floor include Apple's Emate 300, Casio's Cassiopedia, Ricoh's Tablet PC, Mitsubishi's Flopico, and the new Sony DSC F-1 digital camera. Originally broadcast in 1996. Copyright 1996 Stewart Cheifet Productions.",
     ia_broadcastyear: 1996,
     ia_identifier: "CC1417_best_of_comdex",
-    episodeNumber: "1417",
+    episodeNumber: 1417,
     ia_year: 1996,
     ia_date: "1996-01-01T00:00:00.000Z",
     ia_subject: "Episode Year: 1996;Television Programs;Computers: History;comdex;trade show;las vegas"
@@ -560,7 +564,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "On location coverage of the annual winter Consumer Electronics Show in Las Vegas. Products introduced at the show include the new Pentium MMX processors, televisions and phones that act as internet terminals, new web audio devices, handheld digital players, and an innovative approach to networking from IBM called the PAN or personal area network. Originally broadcast in 1997. Copyright 1997 Stewart Cheifet Productions.",
     ia_broadcastyear: 1997,
     ia_identifier: "CC1421_ces",
-    episodeNumber: "1421",
+    episodeNumber: 1421,
     ia_subject: "consumer electronics;trade show;CES"
 },
 {
@@ -568,7 +572,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "As email became the killer application on the internet, products proliferated offering a variety of new email functionality. This program looks at Bigfoot, 411, ConnectSoft's Email Connection, Microsoft Outlook, HoTMaiL, JFax, Eudora Pro 3.0, PaperPort, Aloha Greetings, and PGP. Originally broadcast in 1997. Copyright 1997 Stewart Cheifet Productions.",
     ia_broadcastyear: 1997,
     ia_identifier: "CC1423_email",
-    episodeNumber: "1423",
+    episodeNumber: 1423,
     ia_subject: "email;outlook;eudora"
 },
 {
@@ -576,7 +580,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The computer revolution was great, but it presented real challenges to disabled people who found new barriers to accessing information. This program looks at several solutions including a talking word processor called IntelliTools, two screen readers - JAWS and OutSpoken, Buddy Button, Tash Mini Keyboard, Discovery Switch, EasyBall, Thumbelina, and Cyberlink. Also covered are techniques for building web sites that are user friendly for disabled visitors. Originally broadcast in 1997. Copyright 1997 Stewart Cheifet Productions.",
     ia_broadcastyear: 1997,
     ia_identifier: "CC1424_computers_and_the_disabled",
-    episodeNumber: "1424",
+    episodeNumber: 1424,
     ia_year: 1997,
     ia_date: "1997-01-01T00:00:00.000Z",
     ia_subject: "disabled;handicapped;disabilities"
@@ -586,7 +590,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at new ways to use your computer to create art. Demonstrations include The Virtual Gallery, CorelDraw 7, Detailer, 3D Studio Max 1.2, and virtualart.com. Also covers a visit to a combined human/computer stage production called \"20/20 Blake\" and a museum exhibit of Digital Art. Originally broadcast in 1997. Copyright 1997 Stewart Cheifet Productions.",
     ia_broadcastyear: 1997,
     ia_identifier: "CC1430_computer_art",
-    episodeNumber: "1430",
+    episodeNumber: 1430,
     ia_subject: "art;painting;artists"
 },
 {
@@ -594,7 +598,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at the growing business of electronic commerce based on computers and the internet. Demonstrations include VISA's Secure Electronic Transaction technology, NetGuide, coolshopping.com, Netconex, the Internet Travel Network, and Personalogic. Originally broadcast in 1997.",
     ia_broadcastyear: 1997,
     ia_identifier: "CC1535ECOMMERCE",
-    episodeNumber: "1535",
+    episodeNumber: 1535,
     ia_subject: "electronic commerce;online shopping;ecommerce"
 },
 {
@@ -602,7 +606,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "When Microsoft started giving away Internet Explorer, it became a serious challenger for Netscape. This program looked at the battle to become the dominant internet browser platform. Featured are Netscape Communicator 4.0, Internet Explorer 4.0, VRML 2.0 and RealSystem 5.0. Guests include Mark Brown, author of Using Netscape Communicator, and Amy Helen Johnson, Senior Technology Editor for Windows Magazine. Originally broadcast in 1997. Copyright 1997 Stewart Cheifet Productions.",
     ia_broadcastyear: 1997,
     ia_identifier: "CC1536BROWSERS",
-    episodeNumber: "1536",
+    episodeNumber: 1536,
     ia_year: 1997,
     ia_date: "1997-01-01T00:00:00.000Z",
     ia_subject: "Episode Year: 1997;Television Programs;Computers: History;netscape;internet explorer;browser"
@@ -612,7 +616,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The internet enabled just about anyone to open up an online business. But how do you do it? This program looks at several tools and options. Demonstrations include Claris Home Page, Web Site Garage, and Progress Software's WebSpeed. Model online businesses reviewed include reel.com, the proshop.com, and portabote.com. Featured guest is Rhonda Abrams, small business consultant. Originally broadcast in 1997.",
     ia_broadcastyear: 1997,
     ia_identifier: "CC1541BUSONLINE",
-    episodeNumber: "1541",
+    episodeNumber: 1541,
     ia_year: 1997,
     ia_date: "1997-01-01T00:00:00.000Z",
     ia_subject: "ecommerce;online business;web site"
@@ -622,7 +626,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "As the web continued to grow, games started moving off the PC and onto the internet. This program looks at several examples including www.gamers.com, Magic:The Gathering, www.zone.com, SubSpace, and Underlight. Includes a visit to the Professional Gamers League conference and an interview with gaming megastar Dennis Fong (aka Thresh). Originally broadcast in 1998. Copyright Stewart Cheifet Productions 1998.",
     ia_broadcastyear: 1998,
     ia_identifier: "CC1542ONLINEGAMES",
-    episodeNumber: "1542",
+    episodeNumber: 1542,
     ia_year: 1998,
     ia_date: "1998-01-01T00:00:00.000Z",
     ia_subject: "games;online;thresh"
@@ -632,7 +636,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "On location coverage of Upside's Internet Showcase conference in San Diego, one of the first trade shows focusing only on internet related products and services. Guests include Bill Joy of Sun Microsystems, Eric Schmidt of Novell (now Chairman of Google), Mark Eppley of Traveling Software, Phillipe Kahn, David Coursey, and Larry Magid. Products introduced here included the TIVO and digital televisions. Originally broadcast in 1999. Copyright 1999 Stewart Cheifet Productions.",
     ia_broadcastyear: 1999,
     ia_identifier: "CC1623SHOWCASE",
-    episodeNumber: "1623",
+    episodeNumber: 1623,
     ia_year: 1999,
     ia_date: "1999-01-01T00:00:00.000Z",
     ia_subject: "internet;showcase;upside"
@@ -642,7 +646,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at some of the best new products introduced at the annual COMDEX show in Las Vegas. Demonstrations include the Cyrix WebPAD, Instant Language 2000 from LanguageForce, the C Pen from C Technologies, and Avid Cinema for Windows. Also includes highlights of the keynote speeches at COMDEX including those of Microsoft's Bill Gates, Compaq CEO Eckhard Pfieffer, and Xerox Chief Scientist John Seely Brown. Originally broadcast in 1998. Copyright 1998 Stewart Cheifet Productions.",
     ia_broadcastyear: 1998,
     ia_identifier: "CC1634COMDEX",
-    episodeNumber: "1634",
+    episodeNumber: 1634,
     ia_year: 1998,
     ia_date: "1998-01-01T00:00:00.000Z",
     ia_subject: "comdex;trade show;las vegas"
@@ -652,7 +656,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "If you can send data over the internet, why not voice, and if voice, why not phone calls, and if phone calls, why not video phone calls. This program looks at the new technology of internet telephony or voice over IP (VOIP) and video telephony. Demonstrations include PowWow 3.7, Tribal.com, ClassPoint 1.02, Connectix QuickCam 1.0, Logitech's QuickClip, Best Data Smart One, and ClearPhone. Originally broadcast in 1999. Copyright 1999 Stewart Cheifet Productions.",
     ia_broadcastyear: 1999,
     ia_identifier: "CC1635TELEPHONY",
-    episodeNumber: "1635",
+    episodeNumber: 1635,
     ia_year: 1999,
     ia_date: "1999-01-01T00:00:00.000Z",
     ia_subject: "telephony;video telephony;voice over IP"
@@ -662,7 +666,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The Palm Pilot launched a successful generation of handheld devices and personal digital assistants or PDAs. This program looks at the Palm III, Qualcomm's pdQ CDMA phone, the Nino 300 and the Velo 500 from Philips, Hitachi's Traveler 600, HP's CapShare 910, the GoType keyboard, WINCE 2.0, a Palm application called TriCorder, and Franklin's REX PRO. Guests include David Pogue, New York Times writer and author of \"Palm Pilot: The Ultimate Guide\". Originally broadcast in 1998.\nCopyright 1998 Stewart Cheifet Productions",
     ia_broadcastyear: 1998,
     ia_identifier: "CC1638PDAS",
-    episodeNumber: "1638",
+    episodeNumber: 1638,
     ia_year: 1998,
     ia_date: "1998-12-01T00:00:00.000Z",
     ia_subject: "pda;personal digital assistant;handhelds"
@@ -672,7 +676,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at the growing field of electronic commerce. Shot on location at the Peoplesoft ecommerce conference in Florida. Includes coverage of ecommerce initiatives by such companies as Borders, TWA, DLJ Direct, and Peapod. Guests include syndicated investment columnists, the Motley Fool. Originally broadcast in 1998.",
     ia_broadcastyear: 1998,
     ia_identifier: "CC1639ECOMMERCE",
-    episodeNumber: "1639",
+    episodeNumber: 1639,
     ia_subject: "ecommerce;electronic commerce;online shopping"
 },
 {
@@ -680,7 +684,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "People are turning to their computers and the internet for advice on every conceivable topic, including how to be a parent. This program looks at several resources for parenting. Demonstrations include parentsplus.com, parenting-qa.com, thecybermom.com, abcparenting.com, French Now!, Math Heads, Maurice Ashley Teaches Chess, and EN-parent.com. Guests include Roberta Furger, author of \"Does Jane Compute: Preserving Our Daughter's Place in the Cyber Revolution\" and Pam Dixon, author of \"Take Charge Computing for Parents and Teens\". Originally broadcast in 1998.",
     ia_broadcastyear: 1998,
     ia_identifier: "CC1644PARENTING",
-    episodeNumber: "1644",
+    episodeNumber: 1644,
     ia_year: 1998,
     ia_date: "1998-01-01T00:00:00.000Z",
     ia_subject: "parent;children;daughter"
@@ -690,7 +694,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Coverage of the annual Codie Awards presentations from the Software and Information Industry Association, recognizing the outstanding new software programs of the year. Hosted by Robert Urich and Stewart Cheifet. Nominees for best new software program of the year were ACID, National Geographic Maps, Fireworks, Cybermaster, and MetaFrame. Originally broadcast in 1999. Copyright 1999 Stewart Cheifet Productions.",
     ia_broadcastyear: 1999,
     ia_identifier: "CC1649CODIES",
-    episodeNumber: "1649",
+    episodeNumber: 1649,
     ia_subject: "codie awards;software;programs"
 },
 {
@@ -698,7 +702,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The annual guide to the coolest new computer products on the market. Products reviewed include new digital cameras, MP3 players, PDAs, appliance PCs, cell phone accessories, and Sony's Aibo robot dog. Guests include writers Larry Magid of the LA Times and Mike Langberg of the San Jose Mercury News. Originally broadcast in 2000. Copyright 2000 Stewart Cheifet Productions.",
     ia_broadcastyear: 2000,
     ia_identifier: "CC1812BUYGUIDE",
-    episodeNumber: "1812",
+    episodeNumber: 1812,
     ia_year: 2000,
     ia_date: "2000-01-01T00:00:00.000Z",
     ia_subject: "shopping;buyer;consumer"
@@ -708,7 +712,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Coverage of the annual European Technololgy Roundtable Exhbition, held this year in Prague. Guests include Qualcomm CEO Irwin Jacobs, Symantec CEO John Thompson, Commtouch President Elizabeth Maxwell, 3Com Chairman Eric Benhamou, CMGI Chairman David Wetherell, Think Outside President Phil Baker, Checkpoint Software's CEO Gil Shwedd, Newsweek's Michael Rogers, Fortune's David Kirkpatrick, Red Herring's Tony Perkins, and Thom Calandra of CBS Marketwatch. Originally broadcast in 2000. Copyright 2000 Stewart Cheifet Productions.",
     ia_broadcastyear: 2000,
     ia_identifier: "CC1815ETRE2000THREE",
-    episodeNumber: "1815",
+    episodeNumber: 1815,
     ia_subject: "europe;conference;CEO"
 },
 {
@@ -716,7 +720,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at the hottest new computer games. Featured guest is world champion gamer Dennis Fong, also known as Thresh. Other guests include Ryan McDonald of gamespot.com. Also ign.com, a look at the game \"No One Lives Forever\", and a review of the PlayStation 2. Originally broadcast in 2000. Copyright 2000 Stewart Cheifet Productions.",
     ia_broadcastyear: 2000,
     ia_identifier: "CC1816GAMING",
-    episodeNumber: "1816",
+    episodeNumber: 1816,
     ia_year: 2000,
     ia_date: "2000-01-01T00:00:00.000Z",
     ia_subject: "thresh;game;playstation2; dennis fong; gamespot;"
@@ -726,7 +730,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A surprising look at high tech companies and research in the Aloha state. Shot on location on Maui, Kauai, Oahu, and the Big Island. Features include Trex, a company working on high resolution digital photography, the AEOS telescope run by the Air Force Research Lab on Mount Haleakala, biotech farms growing the antioxidant Astaxanthin, new high tech approaches for Hawaii's traditional sugar industry, a unique power management system in Hilo, and a look at alternative energy research being done by the National Energy Laboratories of Hawaii in Kona. Originally broadcast in 2001.",
     ia_broadcastyear: 2001,
     ia_identifier: "CC1820HAWAIIONE",
-    episodeNumber: "1820",
+    episodeNumber: 1820,
     ia_subject: "hawaii; agriculture; telescope;astronomy; nutriceutical;military; astaxanthin; energy; power"
 },
 {
@@ -734,7 +738,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "On location coverage of the annual Consumer Electronics Show from Las Vegas. This was the year of Napster and much of the show was about new music download sites that tried to add enough value to lure users into paying. Also covered are new approaches to ecommerce, web radio, and home media networks. Originally broadcast in 2001. Copyright 2001 Stewart Cheifet Productions.",
     ia_broadcastyear: 2001,
     ia_identifier: "CC1846CES2001",
-    episodeNumber: "1846",
+    episodeNumber: 1846,
     ia_subject: "ces;consumer electronics;trade show"
 },
 {
@@ -742,7 +746,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A user's guide on how to buy, or build, the ultimate gaming PC. The program looks at CPUs, sound cards, and graphic cards. Demonstrations include the NVidia GeForce3 nfiniteFX graphics engine, Philips Acoustic Edge 5.1 surround audio system for PCs, Intel's 1.7 gigahertz Pentium 4 microprocessor, and customized gaming PCs from Alienware and Falcon Northwest. Games demonstrated include Chameleon, Zoltar, Inferno, Black and White, and Quake III Arena. Originally broadcast in 2001.",
     ia_broadcastyear: 2001,
     ia_identifier: "CC1851ULTIMATE",
-    episodeNumber: "1851",
+    episodeNumber: 1851,
     ia_subject: "games;sound cards;graphics cards"
 },
 {
@@ -750,7 +754,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "As computers and televisions merged in the year 2000, new applications were developed that combined TV quality video with the personal control and interactivity of the computer. This program looks at several examples. Originally broadcast in 2001.",
     ia_broadcastyear: 2001,
     ia_identifier: "CC1852INTERACTIVE",
-    episodeNumber: "1852",
+    episodeNumber: 1852,
     ia_year: 2001,
     ia_date: "2001-01-01T00:00:00.000Z",
     ia_subject: "interactive;TV;television"
@@ -760,7 +764,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at how computers are being used in delivering personal health care solutions. Demonstrations include HealthEngage, a monitoring device for asthma patients, Medscape's electronic medical records application, a web site that lets you prepare for surgery - yoursurgery.com, the Immersion medical simulator which allows medical students to practice on robot patients, the Zeus robotic surgical system and the DaVinci robotic surgeon. Guests include Dr. Mark Leavitt and Dr. Harold Portnoy. Originally broadcast in 2001.",
     ia_broadcastyear: 2001,
     ia_identifier: "CC1930HEALTH",
-    episodeNumber: "1930",
+    episodeNumber: 1930,
     ia_subject: "medicine;surgery;asthma"
 },
 {
@@ -768,7 +772,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at how computer technology is changing medical research and medical practice. Demonstrations include IBM's virtual heart, a software heart simulator used to test heart drugs; HP Labs work in nanotechnology which could lead to tiny objects which go through the blood stream looking for cancer cells; the Sensatex Smart Shirt which can monitor body functions; research at the Oregon Regional Primate Research Center on manipulating DNA to cure health problems; and a high school program which teaches students how to do DNA fingerprinting. Guests include Dr. Sharon Nunes, Director of IBM Life Sciences and Dr. Stan Williams, research fellow the nanotechnology program at HP Labs. Originally broadcast in 2001. Copyright 2001 Stewart Cheifet Productions.",
     ia_broadcastyear: 2001,
     ia_identifier: "CC1934MEDTECH",
-    episodeNumber: "1934",
+    episodeNumber: 1934,
     ia_subject: "nanotechnology;DNA;health care; ibm; hp labs;"
 },
 {
@@ -776,7 +780,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at innovative technologies and companies in one of Asia's major technology centers. Stories include using cell phones for commerce, computerized systems for schools, libraries which use SMS for checking out books, automated in-town rental car services, virtual online visits to prison inmates, and a personal massage module for the Handspring Visor. Originally broadcast in 2002.",
     ia_broadcastyear: 2002,
     ia_identifier: "CC1939SING1",
-    episodeNumber: "1939",
+    episodeNumber: 1939,
     ia_subject: "singapore;asia;mobile commerce"
 },
 {
@@ -784,7 +788,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A survey of high tech research and development activities in Singapore. Included are innovative work on RFID chips, the latest sound technology from Creative Labs, Philips DVD Recorders, new web radios, and a school for digital designers. Originally broadcast in 2002.",
     ia_broadcastyear: 2002,
     ia_identifier: "CC1940SING3",
-    episodeNumber: "1940",
+    episodeNumber: 1940,
     ia_subject: "RFID;creative labs;Philips"
 },
 {
@@ -792,7 +796,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at the first generation of portable computers. Featured are the Morrow Pivot Portable, the HP 110 Portable, Texas Instruments ProLite Portable, and the Data General DG-1 Portable. Guests include George Morrow, Srini Nageswar, Farris Gaffrey, and Roland Archer. Originally broadcast in 1985. Copyright 1985 Stewart Cheifet Productions.",
     ia_broadcastyear: 1985,
     ia_identifier: "CC214_portable_computers",
-    episodeNumber: "214",
+    episodeNumber: 214,
     ia_subject: "portables;laptops;notebooks"
 },
 {
@@ -800,7 +804,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "In the late 1980's, Taiwan was the world's leading producer of scanners, monitors, and many other computer products. This program goes to Taiwan to look at the center of the Asian computer industry. Included are visits to leading domestic computer companies such as Mitac, Microtek, Tatung, and Multitech (now Acer). Also coverage of American technology companies manufacturing in Taiwan such as Atari, Texas Instruments, and IBM. Featured also is a visit to Taiwan's Silicon Valley, called Science Park, and to Taiwan's major computer trade show, Computex. Originally broadcast in 1987. Copyright 1987 Stewart Cheifet Productions.",
     ia_broadcastyear: 1987,
     ia_identifier: "CC434_asian_clones",
-    episodeNumber: "434",
+    episodeNumber: 434,
     ia_year: 1987,
     ia_date: "1987-01-01T00:00:00.000Z",
     ia_subject: "Episode Year: 1987;Television Programs;Computers: History;taiwan;taipei;asia"
@@ -810,7 +814,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "An introduction to Apple's Hypercard. Guests include Apple Fellow and Hypercard creator Bill Atkinson, Hypercard senior engineer Dan Winkler, author of \"The Complete Hypercard Handbook\" Danny Goodman, and Robert Stein, Publisher of Voyager Company. Demonstrations include Hypercard 1.0, Complete Car Cost Guide, Focal Point, Laserstacks, and National Galllery of Art. Originally broadcast in 1987. Copyright 1987 Stewart Cheifet Productions.",
     ia_broadcastyear: 1987,
     ia_identifier: "CC501_hypercard",
-    episodeNumber: "501",
+    episodeNumber: 501,
     ia_subject: "hypercard;apple;bill atkinson"
 },
 {
@@ -818,7 +822,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The annual holiday buyer's guide for computer products featuring geeky recommendations for cool new gadgets from George Morrow, Wendy Woods, Paul Schindler, Gary Kildall, and Stewart Cheifet. Products reviewed include Toshiba T1000 Laptop, Touchbase Worldport 1200 Modem, Diconix 150 Portable Printer, LapLink, Ashton-Tate's Byline, Higgins, Complete Hand Scanner, Worlds of Wonder Julie Doll, Microsoft Bookshelf, Broderbund's Science Tool Kit, Complete PC Fax Board, Mr. Game Show, Ask God, Macromind Videoworks, and Apple's Hypercard. Originally broadcast in 1987. Copyright 1987 Stewart Cheifet Productions.",
     ia_broadcastyear: 1987,
     ia_identifier: "CC506_buyers_guide",
-    episodeNumber: "506",
+    episodeNumber: 506,
     ia_subject: "christmas;holiday;shopping"
 },
 {
@@ -826,7 +830,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The Commodore 64 was the first computer for many families. This program looks at what you can do with the famous C-64. Demonstrations include The Wine Steward, Skate or Die, Strike Fleet, the Koala Pad, Master Composer, Tetris, and Berkeley Software's GEOS. Includes a visit to a Commodore Owners Users Group meeting and an interview with Max Toy, president of Commodore. Originally broadcast in 1988. Copyright 1988 Stewart Cheifet Productions.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC517_commodore_64",
-    episodeNumber: "517",
+    episodeNumber: 517,
     ia_subject: "commodore;C-64;GEOS"
 },
 {
@@ -834,7 +838,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "As operating systems grew more robust, one of the key new features was the ability to multitask, run several applications at the same time. This program looks at some new approaches including Concurrent DOS from Digital Research, Windows 386 from Microsoft, IBM's OS/2, Apple's A/UX, and Tandy's Xenix. Guests include Lee Reiswig, Director of the IBM Austin Lab and Gary Kildall of Digital Research. Originally broadcast in 1988. Copyright 1988 Stewart Cheifet Productions.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC518_multitasking",
-    episodeNumber: "518",
+    episodeNumber: 518,
     ia_subject: "multitasking;OS/2;operating systems"
 },
 {
@@ -842,7 +846,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A look at how computers are now being used as graphics tools by business. Demonstrations include MacDraw II from Claris, Microsoft's Excel, Cricket Presents from Cricket Software, Adobe Illustrator, and ImageMaker. Originally broadcast in 1988. Copyright 1988 Stewart Cheifet Productions.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC519_business_graphics_1",
-    episodeNumber: "519",
+    episodeNumber: 519,
     ia_year: 1988,
     ia_date: "1988-01-01T00:00:00.000Z",
     ia_subject: "business graphics;presentation graphics;business illustration"
@@ -852,7 +856,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "A review of business graphics products in the IBM compatible world. Products demonstrated include Energraphics, KaleidoView, Draw Applause, Freelance Plus, Harvard Graphics, GEM Graph, Presentation Team, Cubicomp, and Zenographics. Originally broadcast in 1988. Copyright 1988 Stewart Cheifet Productions.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC520_business_graphics_2",
-    episodeNumber: "520",
+    episodeNumber: 520,
     ia_year: 1988,
     ia_date: "1988-01-01T00:00:00.000Z",
     ia_subject: "graphics;presentations;business"
@@ -862,7 +866,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "How do you communicate with your computer? This program looks at various input devices for telling your computer what you want it to do. Demonstrations include various mice from Microsoft, Logitech, Multimouse, and MSC, new keyboards from Apricot and Honeywell, the L-PC Lite Pen, a bar code reader, Felix for the Macintosh, the Keytronic Touchpad keyboard, the FastTrap trackball, the cordless Manager Mouse, the Elographics touch screen, and NestorWriter. Originally broadcast in 1988.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC521_input_devices",
-    episodeNumber: "521",
+    episodeNumber: 521,
     ia_subject: "keyboard;mouse;light pen"
 },
 {
@@ -870,7 +874,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "So you've bought your laptop, but that's only the beginning. What else do you need to become the complete road warrior? This program looks at several add-on options including Lap Link and Battery Watch from Traveling Software, back up batteries and chargers, RAM cards, Brooklyn Bridge, WonUnder expansion kit, Axonix ThinkWrite portable printer, Diconix 150 portable printer, Dukane Magniview projector, the Datavue portable fax, and modems from Worldport. Laptops shown include the Gridlite Plus portable and the Toshiba T1100. Originally broadcast in 1988.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC523_laptop_peripherals",
-    episodeNumber: "523",
+    episodeNumber: 523,
     ia_subject: "laptop;notebook;portable"
 },
 {
@@ -878,7 +882,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "In the early days of PCs, you had to know how to open up the box and add the functionality you really wanted when you bought the computer. This program looks at some of the upgrade options including AST's Rampage 286 board, Paradise Systems' VGA Plus Graphics card, IBM's Inboard/386, and Quadram's JT Fax board, and the TV Producer board for the Macintosh II. Originally broadcast in 1988. Copyright 1988 Stewart Cheifet Productions.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC524_add-on_boards",
-    episodeNumber: "524",
+    episodeNumber: 524,
     ia_subject: "Episode Year: 1988;Television Programs;Computers: History;graphics cards;fax cards;add-on boards"
 },
 {
@@ -886,7 +890,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Personal computers level the playing field for individual investors, giving them access to research data that in the past was only available to large money managers. This program looks at several investment applications including The Fundamental Investor, Value Screen Plus, Metastock Professional, CompuTrac, the Quotrek FM receiver, Dow Jones News Retrieval Service, The Professional Portfolio, and Pro Plus Software's Wall Street Investor. Originally broadcast in 1988. Copyright 1988 Stewart Cheifet Productions.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC525_investment_software",
-    episodeNumber: "525",
+    episodeNumber: 525,
     ia_year: 1988,
     ia_date: "1988-01-01T00:00:00.000Z",
     ia_subject: "investor;wall street;stock market"
@@ -896,7 +900,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Computer Aided Design (CAD) programs are used by engineers and architects, but new simplified CAD programs have come out for personal computers that let individual consumers use the power of CAD software. This program looks at several examples including Generic CADD, FastCAD, Dimensions, VersaCAD, Dream House, and Car Builder. Also a look at the standard for high end CAD programs, AutoCAD. Originally broadcast in 1988.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC526_personal_cad",
-    episodeNumber: "526",
+    episodeNumber: 526,
     ia_subject: "CAD;computer aided design;architecture"
 },
 {
@@ -904,7 +908,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "On location coverage of the annual MacWorld expo in Boston. Guests include Jean Louis Gassee and Bob Metcalfe. Companies profiled include Aba Software, Cricket Software, Deneba Software, Microillusions, Silicon Beach, Advent, Claris, Dynaware, Pixelogic, Aldus, Letraset, Microsoft, Ashton-Tate, Springboard Software, Aegis, MacroMind, TrueVision, Electronic Arts, SuperMac, and Apple. Originally broadcast in 1988. Copyright 1988 Stewart Cheifet Productions.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC601_macworld",
-    episodeNumber: "601",
+    episodeNumber: 601,
     ia_subject: "macworld;macintosh;apple"
 },
 {
@@ -912,7 +916,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Today they're called \"mac heads\", but way back in the 1980's, Apple users were in love with the Apple II. Despite the introduction of the Mac in 1984, the Apple II continued to have its devoted fans. This program looks at the Apple II culture during the early Mac era. Included are the Apple IIc+, the Apple II-GS, and a rare Apple I. Guests include John Sculley and Gary Kildall. Software demonstrations are of Math Blaster, Paintworks Gold, and Microsoft Bookshelf. Also a look at the newest Macintosh at the time, the Mac IIx. Originally broadcast in 1988. Copyright 1988 Stewart Cheifet Productions.",
     ia_broadcastyear: 1988,
     ia_identifier: "CC605_apple_ii_forever",
-    episodeNumber: "605",
+    episodeNumber: 605,
     ia_subject: "apple;macintosh;sculley"
 },
 {
@@ -920,7 +924,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Excel now dominates the spreadsheet world, but once upon a time there was actual competition among spreadsheet products. This program looks at Quattro 1.0, Allways 1.0, Lotus 1-2-3 3.0, Ashton-Tate's Full Impact, and Excel 2.1. Guests include Gary Kildall, Jan Lewis, and Jared Taylor of PC Magazine. Originally broadcast in 1988.\nCopyright 1988 Stewart Cheifet Productions",
     ia_broadcastyear: 1988,
     ia_identifier: "CC606_spreadsheet_wars",
-    episodeNumber: "606",
+    episodeNumber: 606,
     ia_year: 1988,
     ia_date: "1988-01-01T00:00:00.000Z",
     ia_subject: "spreadsheets;excel;lotus"
@@ -930,14 +934,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "They weren't quite \"notebook\" computers yet, but laptops were replacing \"luggables\" in the portable computer category during the late 1980's. This program looks at the state of the art in portables including the Atari Portfolio, the GridPad, the Poqet PC, the Dynabook 286, the NEC Color Portable, Toshiba's T3200SX, IBM's P70 386, and the new Mac Portable. Average price for one of these laptops was about $5,000. Guests include Traveling Software CEO Mark Eppley. Originally broadcast in 1989. Copyright 1989 Stewart Cheifet Productions.",
     ia_broadcastyear: 1989,
     ia_identifier: "CC704_new_laptops",
-    episodeNumber: "704",
+    episodeNumber: 704,
     ia_subject: "laptop;portable;notebook"
 },
 {
     ia_title: "Megahertz Mania",
     ia_description: "In the late 1980's PC users were ecstatic over the introduction of 32 bit processors and CPUs running at the blazing speed of 33 megahertz. This program looks at some performance innovations including the AST Premium 386SX/33, the IBM 286s, the Cumulus 386SX add-on card, the Hauppauge 386 Motherboard 33, the Everex 386, and MultiSoft's PC-Kwik Power Pak. Software used for demonstrations include AutoCAD, Splash and Excel. Also features a look at new Intel chips, the i486 CISC and the i860 RISC chips, and new Motorola chips, the RISC 88000 and the CISC 68000. Copyright 1998 Stewart Cheifet Productions.",
     ia_identifier: "CC706_megahertz_mania",
-    episodeNumber: "706",
+    episodeNumber: 706,
     ia_year: 1989,
     ia_subject: "CPU;microprocessor;megahertz"
 },
@@ -946,7 +950,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The introduction of the Macintosh in the mid 1980's opened up a whole new world of desktop graphics capability. This program looks at several early graphics applications for the Mac including More II, Power Point 2.0, Persuasion 2.0, and Macromind Director. Originally broadcast in 1989. Copyright Stewart Cheifet Productions 1989.",
     ia_broadcastyear: 1989,
     ia_identifier: "CC707_desktop_presentation_graphics_1",
-    episodeNumber: "707",
+    episodeNumber: 707,
     ia_subject: "graphics;powerpoint;presenations"
 },
 {
@@ -954,7 +958,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "If a picture is worth a thousand words, then graphics should be an important tool for business. Thanks to more sophisticated computers and display technology, the use of corporate graphics work boomed in the late 1980's. This program looks at several new products for doing presentation graphics on a PC including Harvard Graphics 2.12, Draw Partner, Freelance Plus 3.01, Graph Plus 1.3, Storyboard Plus 2.0, GEM Presentation 1.1, AutoDesk Animator, and Xerox Presents. Originally broadcast in 1989.",
     ia_broadcastyear: 1989,
     ia_identifier: "CC707_desktop_presentation_graphics_2",
-    episodeNumber: "707",
+    episodeNumber: 707,
     ia_subject: "graphics;presentations;business"
 },
 {
@@ -962,7 +966,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "The annual holiday buyer's guide for techie products. Gift giving selections for geeks from Gary Kildall, Paul Schindler, Jan Lewis, John Dickinson, Andrew Eisner, and Stewart Cheifet. Hardware and software for the PC and the Mac. Originally broadcast in 1989.",
     ia_broadcastyear: 1989,
     ia_identifier: "CC709_buyers_guide",
-    episodeNumber: "709",
+    episodeNumber: 709,
     ia_subject: "holiday;consumers;shopping"
 },
 {
@@ -970,7 +974,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "In a world full of Macintosh computers and DOS based computers, there was a market for utilities that would translate between the two formats. This program looks at several examples, including DaynaFile, DOS Mounter, Soft PC, MacWrite II, LapLink Mac III, and PC MacTerm. Among the guests are Mark Eppley, CEO of Traveling Software and analyst Jan Lewis. Originally broadcast in 1989. Copyright 1989 Stewart Cheifet Productions. ",
     ia_broadcastyear: 1989,
     ia_identifier: "CC711_dos_mac",
-    episodeNumber: "711",
+    episodeNumber: 711,
     ia_subject: "DOS;Macintosh;PC"
 },
 {
@@ -978,7 +982,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "As computers moved beyond doing just calculations and word processing, lots of small software companies found new kinds of applications for the growing universe of personal computers. One application was health and fitness. This program looks at several software titles and peripherals that let you use a computer to stay fit. Demonstrations include STEP II's Physical Fitness Evaluation, Psychological Psoftware's Never Fat Again, the Biofeedback Institute's Calmpute, and the Food Processor II from ESHA Research. Also featured are the Heart Window Plus Watch and the Fat Watch Plus Belt. Originally broadcast in 1989.",
     ia_broadcastyear: 1989,
     ia_identifier: "CC712_fitness",
-    episodeNumber: "712",
+    episodeNumber: 712,
     ia_subject: "fitness;health;diet"
 },
 {
@@ -986,7 +990,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "With standalone PC's showing up in every office and in many homes, the big challenge became connecting computers in a local area network. This program looks at several low cost solutions to building a LAN. Demonstrations include LANtastic, LANsmart, Lotus Notes, 10Net Plus, and TOPS LAN. Originally broadcast in 1989.",
     ia_broadcastyear: 1989,
     ia_identifier: "CC713_lans",
-    episodeNumber: "713",
+    episodeNumber: 713,
     ia_subject: "local area network;LAN;connectivity"
 },
 {
@@ -994,7 +998,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "As we entered the 1990's, the big technology news was the move from magnetic storage to optical storage. It was the year of multimedia and the CD-ROM. This program looks at several applications including Grolier Encyclopedia, PC Globe, Headstart III, PC Splash, The Listening Booth, USA Travel, PLV, the NEC Portable CD-ROM CDR-35, the Sony rewritable optical disc Drive SMO-S501, and the video laser disc application \"Advanced Combat Trauma Life Support\". Also a look at the CD Interactive (CDI) and Digital Video Interactive (DVI) platforms. Originally broadcast in 1990. Copyright 1990 Stewart Cheifet Productions.",
     ia_broadcastyear: 1990,
     ia_identifier: "CC715_optical_storage",
-    episodeNumber: "715",
+    episodeNumber: 715,
     ia_subject: "optical;CD-ROM;laser disk"
 },
 {
@@ -1002,7 +1006,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "When laser printers first came out in the 1980's they were prohibitively expensive for most individual users. In the early 1990's, prices came down and even small businesses were able to upgrade from their old dot matrix printers. This program looks at several early options for low cost laser printers. Featured products include the GCC PLP II for the Macintosh, Okilaser 400 from Okidata, the Toshiba LaserPrinter, Canon's LBP-4, and the HP LaserJet IIP. Originally broadcast in 1990. Copyright Stewart Cheifet Productions 1990.",
     ia_broadcastyear: 1990,
     ia_identifier: "CC716_low_cost_laser_printers",
-    episodeNumber: "716",
+    episodeNumber: 716,
     ia_year: 1990,
     ia_date: "1990-01-01T00:00:00.000Z",
     ia_subject: "laser;printer;dot matrix"
@@ -1738,7 +1742,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "\"I told you so.\" In 2001, Silicon Valley experts doubted that Carly Fiorina's plan for HP to acquire Compaq would work. See their comments in this special program covering the European Technology Roundtable and Exhibition in Rome. Copyright 2002 Stewart Cheifet Productions.",
     ia_identifier: "European2002",
     ia_year: 2002,
-    episodeNumber: "1926",
+    episodeNumber: 1926,
     ia_date: "2002-03-12T00:00:00.000Z",
     ia_subject: "hp; hewlett packard; compaq;Microsoft; Dell; carly fiorina;Bill Gates; Michael Dell;Conferences: ETRE;Wireless"
 },
@@ -1746,7 +1750,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_title: "European Technology Roundtable and Exhibition, 2001, Part 4",
     ia_description: "In our final show on the European Technology Roundtable and Exhibition in Rome we wrap up what leaders in the technology field envision for the future.",
     ia_identifier: "European2002_2",
-    episodeNumber: "1917",
+    episodeNumber: 1917,
     ia_date: "2002-01-08T00:00:00.000Z",
     ia_proddate: "2002-01-08T00:00:00.000Z",
     ia_subject: "Episode year: 2002;Companies: Microsoft;People: Bill Gates;Conferences: ETRE"
@@ -1756,7 +1760,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Highlights of the 1995 Fall Comdex show shot on location in Las Vegas. Includes excerpts from the keynote speech by Bill Gates.",
     ia_year: 1995,
     ia_identifier: "FallComd",
-    episodeNumber: "1312",
+    episodeNumber: 1312,
     ia_subject: "comdex;trade show;las vegas"
 },
 {
@@ -3025,7 +3029,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. In the mid 1990's many people were on line, but the internet and the world wide web were still a new phenomenon. This program looks at the new open world of the web. Demonstrations include Eudora, Anarchy, the WELL, WinCIM, InterACT.net, and HoTMetal Pro HTML Editor. Guests include New York Times technology writer John Markoff. Also features a profile of the band Severe Tire Damage, the first band to ever perform live over the internet. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc143_internet",
-    episodeNumber: "143",
+    episodeNumber: 143,
     ia_subject: "internet; net; web;well; compuserve;html; markoff"
 },
 {
@@ -3033,7 +3037,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Microsoft's Windows OS grew up a little bit with the release of Windows NT in 1993. This program looks at the new operating system. Included are demonstrations of NT's application integration and SQL server. Also featured are a new NT based graphics program from Altsys called Virtuoso and a new NT CAD program from Bentley Systems called MicroStation. This program also includes a visit to the NT test and development lab in Redmond, Washington and a comparison between NT and Unix. Originally broadcast in 1993.",
     ia_broadcastyear: 1993,
     ia_identifier: "ar_cc144_windows_nt",
-    episodeNumber: "144",
+    episodeNumber: 144,
     ia_subject: "arabic; windows NT;operating system; unix;microsoft; windows"
 },
 {
@@ -3041,7 +3045,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Consumer advice on how to buy a new computer. Features tips from Andrew Reinhardt of BYTE, Wendy Taylor of PC Computing, Rik Myslewski of MacUser, and Galen Gruman of MacWorld, Owen Linderholm of PC World, and Marty Jerome of PC Computing. Originally broadcast in 1993.",
     ia_broadcastyear: 1993,
     ia_identifier: "ar_cc146_buying_a_new_computer",
-    episodeNumber: "146",
+    episodeNumber: 146,
     ia_subject: "buying; purchase;new computer;arabic; consumer"
 },
 {
@@ -3049,7 +3053,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Highlights from the 15th annual fall COMDEX trade show in Las Vegas. More than 75 products are reviewed in the categories of peripherals, portables, PDAs, PCMCIA cards, wireless, operating systems, business applications, CD-ROM software, communications, networking, and multimedia. Originally broadcast in 1993.",
     ia_broadcastyear: 1993,
     ia_identifier: "ar_cc147_comdex_93",
-    episodeNumber: "147",
+    episodeNumber: 147,
     ia_subject: "comdex; las vegas;arabic; convention;trade show; 1993"
 },
 {
@@ -3057,7 +3061,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. The digital revolution changed the practice of journalism. This program looks at how journalists are using computers and the Internet. Segments include CNN Newsroom Global View, the San Jose Mercury's Mercury Center on AOL, Prodigy's Journalist application, Newsweek Interactive, the JFK Assassinatin CD-ROM, a visit to the MIT Media Lab, and CNBC's Private Financial Network (PFN) online service. Guests include Michael Rogers of Newsweek. Originally broadcast in 1993.",
     ia_broadcastyear: 1993,
     ia_identifier: "ar_cc148_digital_journal",
-    episodeNumber: "148",
+    episodeNumber: 148,
     ia_subject: "rogers; cnn; cnbc; newsweek;MIT; media lab;digital; journalism"
 },
 {
@@ -3065,7 +3069,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. The availability of reasonably priced color printers changed the way people and businesses used computers. This program covers new color printers from Hewlett Packard, Tektronix, QMS, Canon, ColossalJet, and ProofPositive. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc149_color_printing",
-    episodeNumber: "149",
+    episodeNumber: 149,
     ia_subject: "color; printer; printing;arabic;hewlett packard"
 },
 {
@@ -3073,7 +3077,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. For some people, tax preparation software was reason enough to buy their first personal computer. This program reviews several early tax preparation and personal accounting programs including Intuit's Quicken, Andrew Tobias' TaxCut, Kiplinger TaxCut, Parsons Personal Tax Edge, and ChipSoft's TurboTax. The program also visits the IRS to see their transition to electronic filing and the Washington offices of the accounting firm of Delloit Touche. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc150_tax_software",
-    episodeNumber: "150",
+    episodeNumber: 150,
     ia_subject: "arabic; taxes; tax; tax preparation;finance;accounting"
 },
 {
@@ -3081,7 +3085,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. New color monitors created a market for whimsical add-ons like screen savers and wallpaper. Covered in this program are Crystal Walls, Marvel Comics Screen Posters, the Snoopy Screen Saver Fun Pac, the Jurassic Park Screen Saver, Microsoft Scenes, Matinee (the first video screen saver), PFS Power Album for Windows from Spinnaker Software, Pixel Play, and Second Nature Software. Guests include Gina Smith. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc151_screen_savers",
-    episodeNumber: "151",
+    episodeNumber: 151,
     ia_subject: "wallpaper; desktop;screen saver;arabic"
 },
 {
@@ -3089,7 +3093,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. As EISA, ISA, and IBM's MCA battled to become the industry standard for expansion cards, add-on vendors filled the market with new upgrade boards and new slot standards. This program looks at ISA bus systems versus the VL bus system, Intel's new Plug and Play PCI standard, the new PCMCIA format for portable computers, the Stealth 32 Video Card from Diamond, the new SCSI Sound Blaster card from Creative Labs, and the LeMans GT Graphics adapter for the NuBus slot on the Mac. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc155_local_bus_video",
-    episodeNumber: "155",
+    episodeNumber: 155,
     ia_subject: "local bus; expansion slot;peripherals; EISA; ISA;MCA; arabic"
 },
 {
@@ -3097,7 +3101,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. In 1992 the EPA launched the Energy Star Computer Program to encourage the production of environmentally friendly computers. This program looked at several approaches including PC Ener-G-saver, Green Explorer, the Macintosh LC 575, the LaserJet 4L, and the Compaq Presario 425. Also featured are visits to a computer recycling center in California, a computer recycling center in New Jersey, and Greendisk, a company in Seattle that recycles floppy disks. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc157_green_psc",
-    episodeNumber: "157",
+    episodeNumber: 157,
     ia_subject: "environment; ecology; green;arabic;recycle"
 },
 {
@@ -3105,7 +3109,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic version of this program. As business migrated from the standalone PC to the networked PC, a hot new application area became groupware, enabling collaboration within a company. This program reviews Network Scheduler 3 from Powercore, Lotus Notes, WordPerfect Office, The Meeting Room from Eden Systems, GroupSystems 5 from Ventana, ShowMe 2.0 from SunSolutions, and LiveBoard from Xerox. Guests include Scott McNealy. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc158_email-groupware",
-    episodeNumber: "158",
+    episodeNumber: 158,
     ia_subject: "arabic; email; groupware;scott mcnealy; lotus;wordperfect; xerox"
 },
 {
@@ -3113,7 +3117,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. The advent of faster processors and digital storage drove the new field called Multimedia. Examples demonstrated in this program include The San Diego Zoo from Software Toolworks, Macromedia Action!, XPLORA 1: Peter Gabriel's Secret World, TuneLand from 7th Level, Microsoft's Cinemania, Small Blue Planet from Now What Software, Wrath of the Gods from Luminaria, a new portable CD-ROM player from Media Vision, Quicktime 2.0, Adobe Premiere, and VideoFusion. Guests include Bud Colligan, CEO of Macromedia, and Gina Smith, Editor in Chief of Electronic Entertainment magazine. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc159_multimedia_1_part_1",
-    episodeNumber: "159",
+    episodeNumber: 159,
     ia_subject: "multimedia; arabic;peter gabriel; adobe premiere;gina smith' macromedia; bud colligan"
 },
 {
@@ -3121,7 +3125,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. The advent of optical storage and CD-ROMs changed the rules for software applications and opened up a whole new generation of programs. Reviewed on this program are Encarta, the Association of Shareware Professionals CD-ROM collection, American Visions: 20th Century Art from the Neuberger Collection, Art Spiegelman's The Complete Maus from Voyager, Substance Digizine, and the new Broderbund game MYST. Originally broadcast in 1994. \n\n",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc160_cdrom",
-    episodeNumber: "160",
+    episodeNumber: 160,
     ia_subject: "arabic;cd; cd rom; cd-rom;optical"
 },
 {
@@ -3129,14 +3133,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Markets are going global but schools are cutting back on foreign language instruction. The answer - foreign language software. This program reviews several new programs that teach or translate a foreign language. Incuded are Learn to Speak Spanish 4.0 from Hyperglot, German Assistant for Windows from Microtac, Power Japanese from Bayware, Video Linguist: Learn from French TV, Language Explorer from Nordic Software, and the Chinese Language Kit from Apple. Originally broadcast in 1994. \n\n",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc161_foreign_language_software",
-    episodeNumber: "161",
+    episodeNumber: 161,
     ia_subject: "arabic; foreign; language;linguist; japanese;german; spanish; hyperglot"
 },
 {
     ia_title: "Computer Bowl VI - Part 2 - Arabic",
     ia_description: "Arabic subtitled version of this program. The conclusion of the sixth annual Computer Bowl trivia game between high tech types from the east coast and the west coast. This was the All Star edition with MVPs selected from the first five Computer Bowl games. Contestants included Bill Gates, Bill Joy, Mitch Kapor, Bob Frankston, Neil Colvin, and Pamela McCorduck. The questioners were Andy Grove and Stewart Cheifet. Originally broadcast from San Jose in 1994.",
     ia_identifier: "ar_cc163_computer_bowl_6_pt2",
-    episodeNumber: "163",
+    episodeNumber: 163,
     ia_year: 1994,
     ia_date: "1994-01-01T00:00:00.000Z",
     ia_subject: "Episode Year: 1994;Television Programs;Computers: History;Computer Bowl;Bill Gates;San Jose;arabic; bill joy;mitch kapor; andy grove;quiz; contest"
@@ -3146,7 +3150,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Adding peripherals used to be a nightmare with a PC, having to manually figure out all kinds of settings and switches. Windows 95 promised to end all that with Plug and Play, though many users called it Plug and Pray. This program looks at the early efforts to simplify adding peripherals. Covered are sound cards, SCSI controllers, video cards, mice, CDROM drives, and PCMCIA cards. Also covered is Plug and Tell, which helped you figure out what settings had to be changed, and Compaq's Hot Docking technology. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc169_plug_and_play",
-    episodeNumber: "169",
+    episodeNumber: 169,
     ia_subject: "arabic; plug and play;peripherals;add-ins; add-ons"
 },
 {
@@ -3154,7 +3158,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. An annual review of cool new technology products for the holiday buying season, as selected by Stewart Cheifet, Paul Schindler of CMP, Tim Bajarin of Creative Strategies, and Ken Ratcliffe of PC Connection. Products reviewed include Lexmark's Ergonomic Keyboard, 7th Level's Complete Waste of Time, Banner Blue's Family Tree Maker, Maxis Gift Maker, Glider Pro, GPS Trailblazer, Greatest Paper Airplanes, the NEC Satellite Phone, Putt Putt from Humungous Entertainment, Sega's Road Rash II, the Simpsons Screen Saver from Berkeley Systems, Star Trek Interactive, T/Maker's Stradiwackius, and Wacom's Art Pad Dabble bundle.\nOriginally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc172_computer_buying_guide",
-    episodeNumber: "172",
+    episodeNumber: 172,
     ia_subject: "holiday; consumer; buying;shopping; computer; technology;christmas; arabic"
 },
 {
@@ -3162,7 +3166,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. On location coverage of the annual fall Comdex trade show in Las Vegas. Includes highlights of the Bill Gates keynote speech. Features analysis from Tim Bajarin of Creative Strategies. Originally broadcast in 1991.",
     ia_broadcastyear: 1991,
     ia_identifier: "ar_cc173_comdex_fall",
-    episodeNumber: "173",
+    episodeNumber: 173,
     ia_subject: "comdex; fall; las vegas;trade show; 1991;arabic; subtitles; gates"
 },
 {
@@ -3170,7 +3174,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Almost ten years after this show was produced, we are still not talking to our computers. This program looks at several early attempts at a voice interface. Products demonstrated include VoiceUser for Windows, VoiceUser for WorkGroups, Wildfire, VPro, TruVoice, Dragon Dictate, Kurzweil Voice for Windows, Voice Organizer and Philips Dictation System. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc174_talking_computers",
-    episodeNumber: "174",
+    episodeNumber: 174,
     ia_subject: "arabic; talking; speech;synthesis; recognition;voice; dragon; philips"
 },
 {
@@ -3178,7 +3182,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Computers and the digital revolution forever changed the world of music. This program looks at several new approaches to creating and sharing music. Demonstrations include Vid Grid, Sound Toy, William Orbit Strange Cargo, So You Want to be a Rock & Roll Star, Rock & Roll On Your Own, Dylan:Highway 61 Interactive, Video Jam, and Vivace. Also featured is a visit to Todd Rundgren's sound studio in Sausalito, California and a preview of his CD-ROM entitled \"No World Order\". Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc175_interactive_music",
-    episodeNumber: "175",
+    episodeNumber: 175,
     ia_subject: "music; arabic;rock & roll; todd rundgren;compose"
 },
 {
@@ -3186,7 +3190,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. As the popularity of digital cameras grew, photofinishing software followed. This program looks at several early examples of computer based photo processing. Demonstrations include Photoshop 2.5, Nikon's LS-10 CoolScan, PhotoFlash 2.0, Apple's QuickTake Camera, Paint Alchemy, Terrazzo, Picture Window 1.0, EverColor and ArtLink. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc176_digital_photo",
-    episodeNumber: "176",
+    episodeNumber: 176,
     ia_subject: "digital; photography;processing; photoshop;camera"
 },
 {
@@ -3194,7 +3198,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. A look at the hot new computer games of 1995. Games covered include Voyeur, Astronomica, Wing Commander III: Heart of the Tiger, Master of Magic, Nascar Racing, Front Page Sports: Football Pro '95, Daedalus Encounter from Mechadeus, and Loadstar: The Legend of Tully Bodine. Includes visits to Electronic Arts and Rocket Science Games and an interview with \"The Fat Man\", George Sanger. Originally broadcast in 1995.\nCopyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc177_pc_games",
-    episodeNumber: "177",
+    episodeNumber: 177,
     ia_subject: "games; video games;arabic; subtitled; 1995;computer"
 },
 {
@@ -3202,14 +3206,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Computers and videogames have allowed couch potatoes to play sports and athletes to get better at their game. This program looked at several PC sports applications including Picture Perfect Golf, ESPN Baseball Tonight, UltraCoach for Windows, Mountain Biking, and Winning Hoops with Coack K. Also featured are an online golf tournament and Home Team Advantage, a computer based program to help coaches. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc178_pc_sports",
-    episodeNumber: "178",
+    episodeNumber: 178,
     ia_subject: "sports; biking; basketball;golf; coaching;"
 },
 {
     ia_title: "CES Special Las Vegas 1994 - Arabic",
     ia_description: "Arabic subtitled version of this program. On location coverage of the annual Consumer Electronics Show in Las Vegas. Featured analyst is Tim Bajarin, president of Creative Strategies. Includes highlights of the keynote speech by Microsoft's Bill Gates. This is the show where Microsoft introduced its infamous \"BOB\" interface.",
     ia_identifier: "ar_cc179_cbs_special",
-    episodeNumber: "179",
+    episodeNumber: 179,
     ia_subject: "bajarin; gates; microsoft;BOB; CES; consumer electronics;;las vegas"
 },
 {
@@ -3217,7 +3221,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Personal computers have become a major component of modern educational systems. This program looks at some of the strides being made in computer based learning. Product demonstrations include Measurement in Motion, Grammar Games, Tangible Math, Inside the SAT, and The Musical World of Professor Piccolo. Companies profiled are Apple, Davidson & Associates, Logal, Princeton Review, and Opcode Interactive. Also featured are a visit to an Electronic Learning Fair and the online University of Phoenix. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc182_learning_on_a_computer",
-    episodeNumber: "182",
+    episodeNumber: 182,
     ia_subject: "school; learning; education;phoenix; SAT;math; music; gramma"
 },
 {
@@ -3225,7 +3229,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. If you were a DOS user back in the early 1990's, you had to deal with \"insufficient memory\" issues. Over and over again. This program looks at solutions for expanding computer memory. Demonstrations include how to install SIMMs, MemMaker, QAPlus for Windows, RAM Doubler 1.51, Quarterdeck's QEMM 7.5, Multimedia Cloaking Utility from Helix Software, and Netroom 3.0. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc183_losing_memory",
-    episodeNumber: "183",
+    episodeNumber: 183,
     ia_subject: "memory; ram; dimm; simm;qemm; arabic;quarterdeck"
 },
 {
@@ -3233,7 +3237,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. The digital video revolution started to take hold in the mid nineties. This program looks at early examples of desktop video products. Demonstrations include QuickTime VR, Sigma Designs MPEG video, Video Director, Avid Video Shop, Video Machine Lite, Radius Edit, Video Vision, SGI's Set Top Box, CyberLab7, and QuickTime Conferencing. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc185_pc_video",
-    episodeNumber: "185",
+    episodeNumber: 185,
     ia_subject: "arabic; quicktime; digital video;mpeg; avid; sgi"
 },
 {
@@ -3241,7 +3245,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. Technology leaders from the East and West coasts go at it in the seventh annual Computer Bowl, a quiz show designed to see which team knows more about computer trivia. Guest questioner is Nicholas Negroponte. Contestants include Andy Herzfeld and Joseph Alsop. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc188_computer_bowl_special",
-    episodeNumber: "188",
+    episodeNumber: 188,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "Episode Year: 1995;Television Programs;Computers: History;Computer Bowl;negroponte;computer museum;alsop; herzfeld"
@@ -3251,7 +3255,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Arabic subtitled version of this program. It was the biggest ever launch of a software product with stores opening at midnight and buyers around the world waiting to get their hands on... an operating system! It was Windows 95. This show looks at the hoopla surrounding the launch of Windows 95, the product itself, and several Windows 95 add-on products including Microsoft Office, Viking RAM Chips, Uninstaller, Trispectives Professional, and The Hive. Originally broadcast in 1995. \n\n\n\n",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc190_windows_95",
-    episodeNumber: "190",
+    episodeNumber: 190,
     ia_subject: "arabic; windows;larry magid; microsoft"
 },
 {
@@ -3297,7 +3301,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Whether it's managing your personal budget or your investments, computer software has become a critical tool for financial management. This program looks at several leading software packages including Quicken, TurboTax, TaxCut, Window on Wall Street, and e.schwab. Also includes a visit to the IRS and a look at Citibank's new online banking service. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "cc1345_finance_banking_software",
-    episodeNumber: "1345",
+    episodeNumber: 1345,
     ia_subject: "taxes;finance;investing"
 },
 {
@@ -3750,7 +3754,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. Highlights of the annual European Technology Roundtable Exhibition held in 1993 in Barcelona, Spain. Guests include Esther Dyson, John Warnock, Steve Case, and Phillipe Kahn. Originally broadcast in 1993.",
     ia_broadcastyear: 1993,
     ia_identifier: "fr_cc166_etre_special",
-    episodeNumber: "166",
+    episodeNumber: 166,
     ia_subject: "etre; aol; steve case;;esther dyson; john warnock;barcelona; french; france"
 },
 {
@@ -3758,7 +3762,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. Adding peripherals used to be a nightmare with a PC, having to manually figure out all kinds of settings and switches. Windows 95 promised to end all that with Plug and Play, though many users called it Plug and Pray. This program looks at the early efforts to simplify adding peripherals. Covered are sound cards, SCSI controllers, video cards, mice, CDROM drives, and PCMCIA cards. Also covered is Plug and Tell, which helped you figure out what settings had to be changed, and Compaq's Hot Docking technology. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "fr_cc169_plug_and_play",
-    episodeNumber: "169",
+    episodeNumber: 169,
     ia_subject: "french; france;peripherals; windows;compaq; pcmcia"
 },
 {
@@ -3766,7 +3770,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. The advent of the internet meant people could now start communicating and collaborating over the web. This program looks at several early examples of virtual meeting technology. Demonstrations include Cross Ties for Workgroups, Groupware for Windows from Ventana, HP's OmniShare, CU-See Me, Intel's ProShare 200, the Sharevision PC3000 from Creative Labs, VIVO 320 from Vivo Software, AT&T's VideoPhone, and Sony's Magic Link PDA. Guests include Andrew Seybold. Originally broadcast in 1994. Copyright 1994 Stewart Cheifet Productions.",
     ia_broadcastyear: 1994,
     ia_identifier: "fr_cc171_virtual_meetings",
-    episodeNumber: "171",
+    episodeNumber: 171,
     ia_subject: "groupware; sony;at&t; seybold;proshare"
 },
 {
@@ -3774,14 +3778,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. Computers and the digital revolution forever changed the world of music. This program looks at several new approaches to creating and sharing music. Demonstrations include Vid Grid, Sound Toy, William Orbit Strange Cargo, So You Want to be a Rock & Roll Star, Rock & Roll On Your Own, Dylan:Highway 61 Interactive, Video Jam, and Vivace. Also featured is a visit to Todd Rundgren's sound studio in Sausalito, California and a preview of his CD-ROM entitled \"No World Order\". Originally broadcast in 1995. \n\n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc175_interactive_music",
-    episodeNumber: "175",
+    episodeNumber: 175,
     ia_subject: "french; france;music; todd rundgren;digital; sharing"
 },
 {
     ia_title: "CES Special Las Vegas 1994 - French",
     ia_description: "French language version of this program. On location coverage of the annual Consumer Electronics Show in Las Vegas. Featured analyst is Tim Bajarin, president of Creative Strategies. Includes highlights of the keynote speech by Microsoft's Bill Gates. This is the show where Microsoft introduced its infamous \"BOB\" interface.",
     ia_identifier: "fr_cc179_cbs_special",
-    episodeNumber: "179",
+    episodeNumber: 179,
     ia_subject: "french; france; ces; consumer electronics;las vegas; bob; bill gates;microsoft"
 },
 {
@@ -3789,7 +3793,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. In the mid 1990's, it wasn't yet an all Windows world. A battle was on between Microsoft's Windows and IBM's OS/2. This program compared the two operating systems and various add-ons for Windows and OS/2. Products demonstrated include Windows 95, OS/2 Warp, Voice Pilot for OS/2, and Colorworks for OS/2. Guests include IBM's David Barnes and syndicated columnist Dan Gillmor. Originally broadcast in 1995. \n\n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc180_os-2_warp",
-    episodeNumber: "180",
+    episodeNumber: 180,
     ia_subject: "ibm; operating system;france; french;windows; david barnes"
 },
 {
@@ -3797,7 +3801,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. The digital video revolution started to take hold in the mid nineties. This program looks at early examples of desktop video products. Demonstrations include QuickTime VR, Sigma Designs MPEG video, Video Director, Avid Video Shop, Video Machine Lite, Radius Edit, Video Vision, SGI's Set Top Box, CyberLab7, and QuickTime Conferencing. Originally broadcast in 1995. \n\n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc185_pc_video",
-    episodeNumber: "185",
+    episodeNumber: 185,
     ia_subject: "avid; quicktime; mpeg;sgi; radius"
 },
 {
@@ -3805,7 +3809,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. In the mid 1990's many people were on line, but the internet and the world wide web were still a new phenomenon. This program looks at the new open world of the web. Demonstrations include Eudora, Anarchy, the WELL, WinCIM, InterACT.net, and HoTMetal Pro HTML Editor. Guests include New York Times technology writer John Markoff. Also features a profile of the band Severe Tire Damage, the first band to ever perform live over the internet. Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc187_the_internet",
-    episodeNumber: "187",
+    episodeNumber: 187,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "french; france; internet;web; eudora; well; html;severe tire damage"
@@ -3815,7 +3819,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. Technology leaders from the East and West coasts go at it in the seventh annual Computer Bowl, a quiz show designed to see which team knows more about computer trivia. Guest questioner is Nicholas Negroponte. Contestants include Andy Herzfeld and Joseph Alsop. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc188_computer_bowl",
-    episodeNumber: "188",
+    episodeNumber: 188,
     ia_year: 1995,
     ia_date: "1995-01-01T00:00:00.000Z",
     ia_subject: "Episode Year: 1995;Television Programs;Computers: History;Computer Bowl;french; france;game; quiz; negroponte"
@@ -3825,7 +3829,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. It was the biggest ever launch of a software product with stores opening at midnight and buyers around the world waiting to get their hands on... an operating system! It was Windows 95. This show looks at the hoopla surrounding the launch of Windows 95, the product itself, and several Windows 95 add-on products including Microsoft Office, Viking RAM Chips, Uninstaller, Trispectives Professional, and The Hive. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc190_windows_95",
-    episodeNumber: "190",
+    episodeNumber: 190,
     ia_subject: "french; france;windows; microsoft;windows 95; win 95"
 },
 {
@@ -3833,14 +3837,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. In the post Steve Jobs era, Apple started licensing other companies to produce Macintosh clones. And there was a new Mac operating system 8.0, code named Copland. This program looks at the new Mac clones and the new OS. Products demonstrated include the System 100 from Radius, the Genesis MP from DayStar Digital, and the Power 100 from Power Computing. Applications demonstrated include Adobe Photoshop and Personal Oracle 7. Also featured are the new Apple Macintosh 7100 and 8100 models. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc191_mac_os",
-    episodeNumber: "191",
+    episodeNumber: 191,
     ia_subject: "french; france;apple; macintosh;clones; os; operating system"
 },
 {
     ia_title: "Smart TV - French",
     ia_description: "French language version of this program. Convergence was the buzz word of 1995 as analysts predicted the computer and the television set would merge into one box. One aspect of this convergence was the so-called Smart TV. This program demonstrates some examples including the Malachi board which lets you download software into your PC using a standard broadcast signal (not a cable modem), Microware's DAVID (Digital Audio Video Interactive Decoder), HP's Kayak set top box, Philips' DET100 set top box, the Stellar set top box, DIVICOM's set top box, and Oracle's video authoring tools. Originally broadcast in October 1995.\n",
     ia_identifier: "fr_cc192_smart_tv",
-    episodeNumber: "192",
+    episodeNumber: 192,
     ia_subject: "french; france;smart tv; convergence;intelligent tv"
 },
 {
@@ -3848,7 +3852,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. A look at how the health care industry is using computer technology. Products demonstrated include The Doctor's Book of Home Remedies, Multimedia Workout, DynaPulse 200M, The Family Doctor, Stanford University's Pain Clinic, and I-3 Design's Stretchercise. Originally broadcast in 1995. \n\n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc193_computers_and_health_care",
-    episodeNumber: "193",
+    episodeNumber: 193,
     ia_subject: "doctor; medicine;stanford; cure; remedy;exercise"
 },
 {
@@ -3856,14 +3860,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. In the post Steve Jobs era, Apple started licensing other companies to produce Macintosh clones. And there was a new Mac operating system 8.0, code named Copland. This program looks at the new Mac clones and the new OS. Products demonstrated include the System 100 from Radius, the Genesis MP from DayStar Digital, and the Power 100 from Power Computing. Applications demonstrated include Adobe Photoshop and Personal Oracle 7. Also featured are the new Apple Macintosh 7100 and 8100 models. Originally broadcast in 1995. \n\n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc202_mac_os_updated",
-    episodeNumber: "202",
+    episodeNumber: 202,
     ia_subject: "french; macintosh;steve jobs; apple;OS; clones"
 },
 {
     ia_title: "Smart TV - French",
     ia_description: "French language version of this program. Convergence was the buzz word of 1995 as analysts predicted the computer and the television set would merge into one box. One aspect of this convergence was the so-called Smart TV. This program demonstrates some examples including the Malachi board which lets you download software into your PC using a standard broadcast signal (not a cable modem), Microware's DAVID (Digital Audio Video Interactive Decoder), HP's Kayak set top box, Philips' DET100 set top box, the Stellar set top box, DIVICOM's set top box, and Oracle's video authoring tools. Originally broadcast in October 1995. \n\n",
     ia_identifier: "fr_cc203_smart_tv",
-    episodeNumber: "203",
+    episodeNumber: 203,
     ia_subject: "convergence; television;HP; Philips; Microware;divicom; oracle"
 },
 {
@@ -3871,7 +3875,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. A look at different ways to manage the glut of information showing up on computers and other storage devices. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "fr_cc205_information_overload",
-    episodeNumber: "205",
+    episodeNumber: 205,
     ia_subject: "french; france;information; PIM;daytimer"
 },
 {
@@ -3879,7 +3883,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "French language version of this program. Coverage of the annual European Technology Roundtable Exhibition conference held in Madrid. Featured guests include Microsoft's Bill Gates, Esther Dyson, Netscape's Jim Clark, and David Kirkpatrick of Fortune magazine. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc207_etre_part_2",
-    episodeNumber: "207",
+    episodeNumber: 207,
     ia_subject: "madrid; etre; european;microsoft; dasar; vieux;;netscape; dyson"
 },
 {
@@ -4304,7 +4308,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. On location coverage of the annual Boston MacWorld Expo. Guests include analyst Tim Bajarin and writer Stewart Alsop. New products covered include System 7.5, WordPerfect for Mac, Claris Office Suite, PowerBook, Loga Vista, Newton, Visioneer, Wacom Tablet, Hyperglot, Opcode Systems, and Solustan. Originally broadcast in 1994. \n\n",
     ia_broadcastyear: 1994,
     ia_identifier: "sp_cc165_macworld_expo",
-    episodeNumber: "165",
+    episodeNumber: 165,
     ia_subject: "mac; macinstosh; apple;bajarin; alsop; wacom;boston; macworld; newton; claris"
 },
 {
@@ -4312,7 +4316,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. Highlights of the annual European Technology Roundtable Exhibition held in 1993 in Barcelona, Spain. Guests include Esther Dyson, John Warnock, Steve Case, and Phillipe Kahn. Originally broadcast in 1993.",
     ia_broadcastyear: 1993,
     ia_identifier: "sp_cc166_etre_special",
-    episodeNumber: "166",
+    episodeNumber: 166,
     ia_subject: "spanish; case; kahn;europe; etre; barcelona;dyson; vieux"
 },
 {
@@ -4320,7 +4324,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. Adding peripherals used to be a nightmare with a PC, having to manually figure out all kinds of settings and switches. Windows 95 promised to end all that with Plug and Play, though many users called it Plug and Pray. This program looks at the early efforts to simplify adding peripherals. Covered are sound cards, SCSI controllers, video cards, mice, CDROM drives, and PCMCIA cards. Also covered is Plug and Tell, which helped you figure out what settings had to be changed, and Compaq's Hot Docking technology. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "sp_cc169_plug_and_play",
-    episodeNumber: "169",
+    episodeNumber: 169,
     ia_subject: "plug; play; peripheral;add-on; configure;spanish"
 },
 {
@@ -4328,7 +4332,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. The upgrade from Windows 3.0 to Windows 95 was the big leap for Microsoft and began its domination of the desktop. This program looks at the new OS, originally code named \"Chicago\" and Windows 4.0, and new applications developed specifically for Win 95. Demonstrations include Windows 95, Norton Utilities for Win 95, Visio, and Picture Publisher. Also included are demonstratons of IBM's Warp OS/2, and the Macintosh Operating System OS 7.5.\nOriginally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "sp_cc170_windows_95",
-    episodeNumber: "170",
+    episodeNumber: 170,
     ia_subject: "windows; 95;microsoft;OS; operating system; spanish"
 },
 {
@@ -4336,7 +4340,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. As the popularity of digital cameras grew, photofinishing software followed. This program looks at several early examples of computer based photo processing. Demonstrations include Photoshop 2.5, Nikon's LS-10 CoolScan, PhotoFlash 2.0, Apple's QuickTake Camera, Paint Alchemy, Terrazzo, Picture Window 1.0, EverColor and ArtLink. Originally broadcast in 1994.",
     ia_broadcastyear: 1994,
     ia_identifier: "sp_cc176_digital_photo_finishing",
-    episodeNumber: "176",
+    episodeNumber: 176,
     ia_subject: "digital; photography;photo; camera;;spanish"
 },
 {
@@ -4344,14 +4348,14 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. A look at the hot new computer games of 1995. Games covered include Voyeur, Astronomica, Wing Commander III: Heart of the Tiger, Master of Magic, Nascar Racing, Front Page Sports: Football Pro '95, Daedalus Encounter from Mechadeus, and Loadstar: The Legend of Tully Bodine. Includes visits to Electronic Arts and Rocket Science Games and an interview with \"The Fat Man\", George Sanger. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc177_greatest_pc_games",
-    episodeNumber: "177",
+    episodeNumber: 177,
     ia_subject: "games; spanish;electronic arts;video games; pc games"
 },
 {
     ia_title: "CES Special - Spanish",
     ia_description: "Spanish language version of this program. On location coverage of the annual Consumer Electronics Show in Las Vegas. Featured analyst is Tim Bajarin, president of Creative Strategies. Includes highlights of the keynote speech by Microsoft's Bill Gates. This is the show where Microsoft introduced its infamous \"BOB\" interface.",
     ia_identifier: "sp_cc179_cbs_special",
-    episodeNumber: "179",
+    episodeNumber: 179,
     ia_subject: "consumer; electronics;microsoft; BOB;spanish"
 },
 {
@@ -4359,7 +4363,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. Personal computers have become a major component of modern educational systems. This program looks at some of the strides being made in computer based learning. Product demonstrations include Measurement in Motion, Grammar Games, Tangible Math, Inside the SAT, and The Musical World of Professor Piccolo. Companies profiled are Apple, Davidson & Associates, Logal, Princeton Review, and Opcode Interactive. Also featured are a visit to an Electronic Learning Fair and the online University of Phoenix. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc182_learning_on_a_computer",
-    episodeNumber: "182",
+    episodeNumber: 182,
     ia_subject: "learning; school;;education; apple;spanish"
 },
 {
@@ -4367,7 +4371,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. Industry prognosticators predicted that 1995 would be \"the year of the portable\". And it was, as mobile computing became mainstream. This program looks at several mobile computing solutions, including the Morrow Pivot II, the Apple PowerBook 540C, Toshiba's T2150 CDT, IBM's Butterfly subnotebook, Apple's Newton MessagePad, the Sharp Zaurus, Sony's Magic Link, the Psion 3A, the Pentax PocketJet printer, Xircom's CreditCard Ethernet, Zenith's CD-ROM Z Player, Dell's Latitude, Bell South's Simon, HP's Omnibook 600, and the X-Jack Modem from Megahertz. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc186_mobil_computing",
-    episodeNumber: "186",
+    episodeNumber: 186,
     ia_subject: "mobile;portable;laptop; notebook; pda"
 },
 {
@@ -4375,7 +4379,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this show. A profile on computer pioneer Gary Kildall and the important contributions he made to the PC industry including the true story on how IBM ended up using MS-DOS rather than CP/M. Kildall developed CP/M, the first personal computer operating system. He was also a co-host on the early Computer Chronicles series. Includes comments by Gordon Eubanks, Symantec; Tom Rolander, DRI; Tim Bajarin, Creative Strategies; Lee Lorenzen, DRI; Jacqui Morby, TA Associates; Alan Cooper, CP/M applications developer. Originally broadcast in 1995. \n\n",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc189_gary_kildall_special",
-    episodeNumber: "189",
+    episodeNumber: 189,
 
 },
 {
@@ -4383,7 +4387,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. Your computer can't keep up with the latest applications. Should you buy a new one or can you get the same performance by upgrading your existing machine. This program looks at the options and the issues. Guests include Linda Concalves of Apple, Andrew Gitt of Corporate Upgrades, Paul Schindler of Windows Magazine, Kim Frederico of Creative Labs, and Spiros Mitsanis of Backyard Computer Services. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc196_buy_or_upgrade",
-    episodeNumber: "196",
+    episodeNumber: 196,
     ia_subject: "spanish; espanol;memory; RAM;CPU; windows; apple"
 },
 {
@@ -4391,7 +4395,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. A review of the best new games of the year. Games covered include In the First Degree, Buried in Time, Mech Warrior 2, ImagiNation Network, and Phantasmagoria. Plus a visit to Microsoft's Judgment Day, a conference for third-party game developers in Redmond, Washington. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc197_greatest_games",
-    episodeNumber: "197",
+    episodeNumber: 197,
     ia_subject: "games; spanish;pc games; video games"
 },
 {
@@ -4399,7 +4403,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. Highlights of the 1995 Fall Comdex show shot on location in Las Vegas. Includes excerpts from the keynote speech by Bill Gates. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc200_fall_comdex",
-    episodeNumber: "200",
+    episodeNumber: 200,
     ia_subject: "comdex; trade show;las vegas; gates;spanish; bajarin"
 },
 {
@@ -4407,7 +4411,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. In the post Steve Jobs era, Apple started licensing other companies to produce Macintosh clones. And there was a new Mac operating system 8.0, code named Copland. This program looks at the new Mac clones and the new OS. Products demonstrated include the System 100 from Radius, the Genesis MP from DayStar Digital, and the Power 100 from Power Computing. Applications demonstrated include Adobe Photoshop and Personal Oracle 7. Also featured are the new Apple Macintosh 7100 and 8100 models. Originally broadcast in 1995.",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc202_mac_os_updated",
-    episodeNumber: "202",
+    episodeNumber: 202,
     ia_subject: "apple; macintosh;jobs; clone; OS;spanish; operating system"
 },
 {
@@ -4415,7 +4419,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. A look at different ways to manage the glut of information showing up on computers and other storage devices. Originally broadcast in 1996.",
     ia_broadcastyear: 1996,
     ia_identifier: "sp_cc205_information_overload",
-    episodeNumber: "205",
+    episodeNumber: 205,
     ia_subject: "information; overload;pda; organizer;spanish"
 },
 {
@@ -4423,7 +4427,7 @@ const iaMetadata: IAMetadata[] = [{
     ia_description: "Spanish language version of this program. A look at how children use computers at home and at school. Products demonstrated include The Amazing Writing Machine from Broderbund, How Would You Survive, from Grolier Electronic Publishing, and 3D Atlas from Creative Wonders. Also reviews of several kid oriented web sites such as kidlink.org, nbn.com/youcan, batnet.com, and Kids Only on AOL (search word Kids). Originally broadcast in 1996. \n\n",
     ia_broadcastyear: 1996,
     ia_identifier: "sp_cc206_komputer_kids",
-    episodeNumber: "206",
+    episodeNumber: 206,
     ia_subject: "spanish; espanol;kids; children;school"
 },
 {
