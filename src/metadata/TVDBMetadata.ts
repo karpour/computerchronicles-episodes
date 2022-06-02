@@ -15,7 +15,7 @@ export type TVDBMetadata = {
     tvdb_episode: string,
     tvdb_title: string,
     tvdb_description: string,
-    tvdb_guests?: string | string[],
+    tvdb_guests?: string,
     tvdb_demos?: string,
     tvdb_copyright?: number,
     tvdb_broadcastyear?: number,
@@ -29,7 +29,7 @@ export type TVDBMetadata = {
     episodeNumber?: string
 }
 
-const tvdb_eps: TVDBMetadata[] = [
+const tvdbMetadata: TVDBMetadata[] = [
     {
         tvdb_episode: "S01E01",
         tvdb_title: "Mainframes to Minis to Micros",
@@ -236,7 +236,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_description: "An early look at supercomputers in the United States and Japan. The program also features on location coverage in Japan of the country's supercomputer projects including the Hitachi S810-20 at the University of Tokyo and the Electro Technical Laboratory in Tsukuba, Japan.",
         tvdb_guests: "George Michael, head of computer research of Lawrence Livermore National Laboratory; John Repp, Control Data Corporation; Dr. Hideo Aiso, Professor at Keio University in Japan; Dr. Hiroshi Kashiwagi, Chairman of Japan's National Supercomputer Project; Dr. Yukio Mizuno, Senior Vice President of NEC",
         ia_identifier: "CC126_supercomputers",
-        episodeNumber: "126",
         tvdb_date: "October 19, 1984"
     },
     {
@@ -246,7 +245,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_guests: "Edward Feigenbaum of Stanford University; Nils Nilsson, AI Center at SRI International; Tom Kehler, Intellegenetics; Herb Lechner, SRI; John McCarthy, Stanford",
         tvdb_demos: "Inferential Knowledge Engineering, programming language LISP",
         ia_identifier: "CC1024_artificial_intelligence",
-        episodeNumber: "1024",
         tvdb_date: "October 26, 1984"
     },
     {
@@ -270,16 +268,15 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_title: "Portable Computers",
         tvdb_description: "The state of the art in portable computers in the mid 1980's.",
         tvdb_demos: "Morrow Pivot Portable, Hewlett Packard HP110, Texas Instrument Pro-Lite, Data General DG-1",
-        ia_identifier: "portablecomp",
-        ia_identifier2: "CC214_portable_computers",
-        episodeNumber: "214",
+        ia_identifier: "CC214_portable_computers",
+        episodeNumber: "202",
         tvdb_date: "January 22, 1985"
     },
     {
         tvdb_episode: "S02E03",
         tvdb_title: "Computer Games",
         tvdb_description: "A look at the newest computer games for PC users.",
-        tvdb_demos: "Sargon III Chess Game, Millionaire Strategy Game, Pitfall, Zork ( Infocom), Ghostbusters",
+        tvdb_demos: "Sargon III Chess Game, Millionaire Strategy Game, Pitfall, Infocom Zork, Ghostbusters",
         ia_identifier: "Computer1985_6",
         tvdb_date: "January 29, 1985"
     },
@@ -378,8 +375,7 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_repeat_of_title: "Portable Computers",
         tvdb_description: "The state of the art in portable computers in the mid 1980's.",
         tvdb_demos: "Morrow Pivot Portable, Hewlett Packard HP110, Texas Instrument Pro-Lite, Data General DG-1",
-        ia_identifier: "portablecomp",
-        ia_identifier2: "CC214_portable_computers",
+        ia_identifier: "CC214_portable_computers",
         episodeNumber: "214",
         tvdb_date: "April 23, 1985"
     },
@@ -1011,14 +1007,14 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_title: "Local Area Networks: Part 1 - IBM Compatibles",
         tvdb_description: "It didn't take long after the introduction of personal computers for users to want to network their PCs and share files and peripherals. This program looks at some early networking technologies incuding Grapevine, EasyLAN, 3Com, and Novell.",
         tvdb_demos: "Grapevine, EasyLAN, 3Com, Novell",
-        ia_identifier: "DesktopP1986",
+        ia_identifier: "networks1",
     },
     {
         tvdb_episode: "S05E05",
         tvdb_title: "Local Area Networks: Part 2 - Apple",
         tvdb_description: "A look at early attempts to network personal computers. This show focuses on Apple products including Appletalk, AppleShare FileServer, and MacLink. Also includes a look at Apple networks in use at Arthur Young & Company and at Stanford University.",
         tvdb_demos: "Appletalk, AppleShare FileServer, MacLink",
-        ia_identifier: "networks1",
+        ia_identifier: "networks2",
     },
     {
         tvdb_episode: "S05E06",
@@ -1374,8 +1370,7 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_title: "Computers in Space",
         tvdb_description: "A look at how NASA uses computers to run the space program, launch manned spacecraft, and manage the overall operations of America's space program.",
         tvdb_demos: "Space Physics Analysi Network; Total Ozone Map Spectrometer; Space Science Data Center; Silicon Graphics Space Simulator",
-        ia_identifier: "space_3",
-        ia_identifier2: "space_2",
+        ia_identifier: "space_2",
         tvdb_date: "May 23, 1989"
     },
     {
@@ -1433,7 +1428,7 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "Harvard Graphics 2.12, Draw Partner, Freelance Plus 3.01, Graph Plus 1.3, Storyboard Plus 2.0, GEM Presentation 1.1, AutoDesk Animator, Xerox Presents",
         tvdb_broadcastyear: 1989,
         ia_identifier: "CC707_desktop_presentation_graphics_2",
-        episodeNumber: "707",
+        episodeNumber: "708",
     },
     {
         tvdb_episode: "S07E09",
@@ -1935,7 +1930,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_guests: "Tim Bajarin, Creative Strategies",
         tvdb_broadcastyear: 1991,
         ia_identifier: "ar_cc173_comdex_fall",
-        episodeNumber: "173",
     },
     {
         tvdb_episode: "S09E10",
@@ -2574,7 +2568,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_description: "The big news in 1993 was Microsoft's new version 6.2 of MS-DOS. Featured are visits to Microsoft DOS labs in Redmond, Washington and the Ziff Davis test labs in Foster City, California.",
         tvdb_demos: "MS-DOS 6.0, MS-DOS 6.2, Stacker 3.1, Norton Utilities 7.0, IBM PenDOS",
         tvdb_broadcastyear: 1993,
-        ia_identifier: "episode_1149",
         ia_identifier2: "DOS62",
     },
     {
@@ -2716,7 +2709,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_description: "As EISA, ISA, and IBM's MCA battled to become the industry standard for expansion cards, add-on vendors filled the market with new upgrade boards and new slot standards. This program looks at ISA bus systems versus the VL bus system, Intel's new Plug and Play PCI standard, the new PCMCIA format for portable computers, the Stealth 32 Video Card from Diamond, the new SCSI Sound Blaster card from Creative Labs, and the LeMans GT Graphics adapter for the NuBus slot on the Mac.",
         tvdb_broadcastyear: 1994,
         ia_identifier: "SlotsLoc",
-        episodeNumber: "155",
     },
     {
         tvdb_episode: "S11E23",
@@ -2849,7 +2841,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "MS-DOS 6.0, MS-DOS 6.2, Stacker 3.1, Norton Utilities 7.0, IBM PenDOS",
         tvdb_broadcastyear: 1993,
         ia_identifier: "episode_1149",
-        ia_identifier2: "DOS62",
     },
     {
         tvdb_episode: "S12E01",
@@ -2969,7 +2960,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "Vid Grid, Sound Toy, William Orbit Strange Cargo, So You Want to be a Rock & Roll Star, Rock & Roll On Your Own, Dylan:Highway 61 Interactive, Video Jam, Vivace",
         tvdb_broadcastyear: 1995,
         ia_identifier: "CC1238_interactive_music",
-        episodeNumber: "1238",
     },
     {
         tvdb_episode: "S12E16",
@@ -3057,8 +3047,8 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_title: "Computer Memory",
         tvdb_description: "If you were a DOS user back in the early 1990's, you had to deal with \"insufficient memory\" issues. Over and over again. This program looks at solutions for expanding computer memory.",
         tvdb_demos: "how to install SIMMs, MemMaker, QAPlus for Windows, RAM Doubler 1.51, Quarterdeck's QEMM 7.5, Multimedia Cloaking Utility from Helix Software, Netroom 3.0",
-        ia_identifier: "LosingMe",
-        ia_identifier2: "CC1227_losing_memory",
+        ia_identifier2: "LosingMe",
+        ia_identifier: "CC1227_losing_memory",
         episodeNumber: "1227",
     },
     {
@@ -3137,7 +3127,7 @@ const tvdb_eps: TVDBMetadata[] = [
     },
     {
         tvdb_episode: "S12E38",
-        tvdb_title: "REPEAT",
+        tvdb_title: "REPEAT [Interactive Music]",
         tvdb_is_repeat: true,
         tvdb_description: "",
     },
@@ -3217,7 +3207,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "The Doctor's Book of Home Remedies, Multimedia Workout, DynaPulse 200M, The Family Doctor, Stanford University's Pain Clinic, I-3 Design's Stretchercise",
         tvdb_broadcastyear: 1995,
         ia_identifier: "CC1335_computers_and_healthcare",
-        episodeNumber: "1335",
     },
     {
         tvdb_episode: "S13E05",
@@ -3231,7 +3220,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "Rand McNally's TripMaker 1996, Nolo Press WillMaker, Banner Blue Family Tree Maker",
         tvdb_broadcastyear: 1995,
         ia_identifier: "CC1327_computing_seniors",
-        episodeNumber: "1327",
     },
     {
         tvdb_episode: "S13E07",
@@ -3366,7 +3354,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "Quicken, TurboTax, TaxCut, Window on Wall Street, E.Schwab",
         tvdb_broadcastyear: 1996,
         ia_identifier: "cc1345_finance_banking_software",
-        episodeNumber: "1345",
     },
     {
         tvdb_episode: "S13E23",
@@ -3415,7 +3402,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "Edmark Thinking Things, Theatrix Hollywood, Lucas Arts Dark Forces, Against All Odds Rick Smolan's Passage to Vietnam",
         tvdb_broadcastyear: 1995,
         ia_identifier: "CC1349_codies_special",
-        episodeNumber: "1349",
     },
     {
         tvdb_episode: "S13E29",
@@ -3427,9 +3413,8 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_guests: "Tom Abate, San Francisco Examiner technology writer",
         tvdb_copyright: 1995,
         tvdb_broadcastyear: 1995,
-        ia_identifier: "CC1319_soho_software",
-        episodeNumber: "1319",
-        ia_identifier2: "SohoSoft",
+        ia_identifier2: "CC1319_soho_software",
+        ia_identifier: "SohoSoft",
         tvdb_date: "December 15, 1995"
     },
     {
@@ -3534,7 +3519,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_description: "In the early days of the Internet, sites were slow and it was hard to find what you were looking for. This program offered some advice on how to have a better online experience. Demonstrations included Cyber Patrol, Web Trader, Netiquette, Lycos, HTML Guide, and the first version of Sun's Java.",
         tvdb_guests: "Sun Microsystems chief scientist John Gage",
         ia_identifier: "OnlineTi",
-        ia_identifier2: "OnlineTi96",
     },
     {
         tvdb_episode: "S13E45",
@@ -3929,7 +3913,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_description: "On location coverage of the annual European Technology Roundtable Exhibition conference in Berlin. Leading technology executives and journalists from around the world gather to discuss the future of computer and internet technology.",
         tvdb_guests: "David Kirkpatrick, Fortune; Roel Pieper, Tandem; Eric Benhamou, 3Com; Michael Rogers, Newsweek; John Shock, venture capitalist; Alex Vieux, conference host; Marco Landi, Apple; Stan Shih, Acer",
         tvdb_broadcastyear: 1996,
-        ia_identifier: "ETRE1997",
     },
     {
         tvdb_episode: "S15E09",
@@ -3943,7 +3926,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "VISA's Secure Electronic Transaction technology, NetGuide, coolshopping.com, Netconex, Internet Travel Network, Personalogic",
         tvdb_broadcastyear: 1997,
         ia_identifier: "CC1535ECOMMERCE",
-        episodeNumber: "1535",
     },
     {
         tvdb_episode: "S15E11",
@@ -3953,7 +3935,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_guests: "Mark Brown, author of Using Netscape Communicator; Amy Helen Johnson, Senior Technology Editor for Windows Magazine",
         tvdb_broadcastyear: 1997,
         ia_identifier: "CC1536BROWSERS",
-        episodeNumber: "1536",
         tvdb_date: "May 26, 1998"
     },
     {
@@ -4015,17 +3996,15 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "Claris Home Page, Web Site Garage, Progress Software's WebSpeed",
         tvdb_broadcastyear: 1997,
         ia_identifier: "CC1541BUSONLINE",
-        episodeNumber: "1541",
     },
     {
         tvdb_episode: "S15E20",
         tvdb_title: "Online Games",
         tvdb_description: "In the late nineties the internet became a major venue for playing computer games. This program looked at several of the best examples.",
-        tvdb_demos: "Magic: The Gathering, gamers.com, PGL (Professional Gamers League), Microsoft's Internet Gaming Zone, Underlight",
+        tvdb_demos: "Magic: The Gathering, gamers.com, PGL (Professional Gamers League), Microsoft Internet Gaming Zone, Underlight",
         tvdb_broadcastyear: 1998,
-        ia_identifier: "BestComp98",
-        ia_identifier2: "CC1542ONLINEGAMES",
-        episodeNumber: "1542",
+        ia_identifier2: "BestComp98",
+        ia_identifier: "CC1542ONLINEGAMES",
         tvdb_date: "July 7, 1998"
     },
     {
@@ -4195,8 +4174,8 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "Magic: The Gathering, gamers.com, PGL (Professional Gamers League), Microsoft's Internet Gaming Zone, Underlight",
         tvdb_copyright: 1998,
         tvdb_broadcastyear: 1998,
-        ia_identifier: "BestComp98",
-        ia_identifier2: "CC1542ONLINEGAMES",
+        ia_identifier2: "BestComp98",
+        ia_identifier: "CC1542ONLINEGAMES",
         episodeNumber: "1542",
         tvdb_date: "July 7, 1998"
     },
@@ -4272,7 +4251,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_broadcastyear: 1998,
         ia_identifier: "Internet99",
         ia_identifier2: "CC1635TELEPHONY",
-        episodeNumber: "1635",
         tvdb_date: "October 27, 1998"
     },
     {
@@ -4317,7 +4295,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_guests: "David Pogue, New York Times writer and author of \"Palm Pilot: The Ultimate Guide\"",
         tvdb_broadcastyear: 1998,
         ia_identifier: "CC1638PDAS",
-        episodeNumber: "1638",
         tvdb_date: "December 1, 1998"
     },
     {
@@ -4334,9 +4311,8 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_description: "A look at some of the best new products introduced at the annual COMDEX show in Las Vegas. Also includes highlights of the keynote speeches at COMDEX including those of Microsoft's Bill Gates, Compaq CEO Eckhard Pfieffer, and Xerox Chief Scientist John Seely Brown.",
         tvdb_demos: "Cyrix WebPAD, LanguageForce Instant Language 2000, C Technologies C Pen, Avid Cinema for Windows",
         tvdb_broadcastyear: 1998,
-        ia_identifier: "CC1634COMDEX",
-        episodeNumber: "1634",
-        ia_identifier2: "BestofCo99",
+        ia_identifier2: "CC1634COMDEX",
+        ia_identifier: "BestofCo99",
         tvdb_date: "December 15, 1998"
     },
     {
@@ -4346,7 +4322,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_guests: "Motley Fool, syndicated investment columnist",
         tvdb_broadcastyear: 1998,
         ia_identifier: "CC1639ECOMMERCE",
-        episodeNumber: "1639",
         tvdb_date: "December 22, 1998"
     },
     {
@@ -4455,7 +4430,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_guests: "Robert Urich",
         tvdb_broadcastyear: 1999,
         ia_identifier: "CC1649CODIES",
-        episodeNumber: "1649",
         tvdb_date: "March 23, 1999"
     },
     {
@@ -4508,9 +4482,9 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_demos: "Cyrix WebPad, Instant Language 2000, C-Pen, Avid Cinema for Windows, Cult 3D",
         tvdb_copyright: 1999,
         tvdb_broadcastyear: 1999,
-        ia_identifier: "CC1634COMDEX",
+        ia_identifier2: "CC1634COMDEX",
         episodeNumber: "1634",
-        ia_identifier2: "BestofCo99",
+        ia_identifier: "BestofCo99",
         tvdb_date: "May 11, 1999"
     },
     {
@@ -5022,7 +4996,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_description: "On location coverage of the annual Consumer Electronics Show from Las Vegas. This was the year of Napster and much of the show was about new music download sites that tried to add enough value to lure users into paying. Also covered are new approaches to ecommerce, web radio, and home media networks.",
         tvdb_broadcastyear: 2001,
         ia_identifier: "CC1846CES2001",
-        episodeNumber: "1846",
         tvdb_date: "March 6, 2001"
     },
     {
@@ -5095,7 +5068,6 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_repeat_of_title: "ETRE Conference Prague (2000): Part 3",
         tvdb_description: "We wrap up ETRE 2000 in part three. We're looking at wireless and how it will affect the Internet. We'll cover everything from getting the data to your PDA or cell phone, to who's making sure the information is safe.\n\n[Episode #1835, First broadcast: 5/15/2001]",
         ia_identifier: "CC1815ETRE2000THREE",
-        episodeNumber: "1815",
         tvdb_date: "May 15, 2001"
     },
     {
@@ -5118,6 +5090,7 @@ const tvdb_eps: TVDBMetadata[] = [
         tvdb_episode: "S18E38",
         tvdb_title: "Ultimate Gaming PC",
         tvdb_description: "It's a great time to be a gamer.  As new hardware and games continue to dominate the market, gamers now have more choices when it comes to using the PC for more than just work.  This week we'll look at new hardware and games for your PC. \n\n[Episode #1838, First broadcast: of 6/5/2001]\n\nNVidia\nNVIDIA is the worldwide leader in graphics processors and media communications devices. The unmatched breadth of NVIDIA's product line enriches 3D, 2D, video, audio, communications, broadband connectivity and high-definition digital video and television for every audience and price point -- from workstations to internet-enabled appliances to mobile PCs.\n\nPhilips Magnavox \nThe Philips Acoustic Edge is first sound card that transforms every game into a movie theatre experience by transforming ordinary stereo output of games into 5.1 theatre sound. 5.1 is the type of sound you normally only get from a movie theatre or home \ntheatre system equipped with a technology like Dolby Digital or DTS. 5..1 refers to the 5 distinctly different channels of surround sound (front left, front center, front right, rear left, rear right speakers) plus the .1 channel or \"LFE\" that provides special low frequency effects (rumbling, explosions, etc).\n\nIntel Pentium 4\nIntel Pentium 4 processor at 1.7 GHz, the company's highest performance microprocessor for desktop computers. Computer makers worldwide will be launching systems based on this new Intel microprocessor, which is available immediately.\n\nAs the Pentium 4 processor ramps into high volume, computer makers are providing a range of system choices and price points. For consumers, the Pentium 4 processor delivers high performance for processing video and audio, exploiting the latest Internet technologies, and displaying 3-D graphics. As they connect entertainment and productivity devices, users get even more value from their high-performance Pentium 4 processor-based systems. For business users, the Pentium 4 processor provides the p",
+        tvdb_guests: "Gordon Ung;Will Smith",
         tvdb_date: "June 5, 2001"
     },
     {
@@ -5729,4 +5702,4 @@ const tvdb_eps: TVDBMetadata[] = [
     }
 ];
 
-export default tvdb_eps;
+export default tvdbMetadata;

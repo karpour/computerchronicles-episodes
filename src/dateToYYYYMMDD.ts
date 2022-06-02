@@ -1,4 +1,4 @@
 
-export function dateToYYYYMMDD(date: Date) {
+export default function dateToYYYYMMDD(date: Date) {
     return date.toISOString().substring(0, 10);
 }

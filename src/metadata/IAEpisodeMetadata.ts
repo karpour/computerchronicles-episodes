@@ -1076,7 +1076,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Comdex 1986",
-    ia_description: "A review of the newest hardware and software as exhibited at the annual fall Comdex show in Las Vegas.\nGuests: Hal Glatzer, Software News; Tim Bajarin, Creative Strategies; Jan Lewis, Palo Alto Research Group\nProducts/Demos: Hyundai & Samsung 386 PCs, Compaq 386 PC, Zenith PortableNEC Multispeed, Datavue SNAPPC Movie Maker, Smart Sneaker, Phonetic Engine, Hitachi & Toshiba Drives, Okidata & LED Laser Printers, QMS and HP Printers. Originally broadcast in 1986. \n\nCopyright 1986 Stewart Cheifet Productions.",
+    ia_description: "A review of the newest hardware and software as exhibited at the annual fall Comdex show in Las Vegas.\nGuests: Hal Glatzer, Software News; Tim Bajarin, Creative Strategies; Jan Lewis, Palo Alto Research Group\nProducts/Demos: Hyundai & Samsung 386 PCs, Compaq 386 PC, Zenith PortableNEC Multispeed, Datavue SNAPPC Movie Maker, Smart Sneaker, Phonetic Engine, Hitachi & Toshiba Drives, Okidata & LED Laser Printers, QMS and HP Printers. Originally broadcast in 1986. \nCopyright 1986 Stewart Cheifet Productions.",
     ia_broadcastyear: 1986,
     ia_identifier: "ComdexSp1986",
     ia_year: 1986,
@@ -1106,7 +1106,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Computer Ergonomics",
-    ia_description: "A look at health problems related to computer use such as video display radiation and repetitive stress injuries.\nGuests: Herb Lechner, SRI International; Wanda Smith, Hewlett Packard; Karen Kessel, Koffler Group; Susan Kare, Apple; Jerry Manock, Apple.\n.Products/Demos: Apple Macintosh, HP Orion Computer. \n\nOriginally broadcast in 1984. Copyright 1984 Stewart Cheifet Productions.",
+    ia_description: "A look at health problems related to computer use such as video display radiation and repetitive stress injuries.\nGuests: Herb Lechner, SRI International; Wanda Smith, Hewlett Packard; Karen Kessel, Koffler Group; Susan Kare, Apple; Jerry Manock, Apple.\n.Products/Demos: Apple Macintosh, HP Orion Computer. \nOriginally broadcast in 1984. Copyright 1984 Stewart Cheifet Productions.",
     ia_broadcastyear: 1984,
     ia_identifier: "Computer1984_3",
     ia_year: 1984,
@@ -1145,7 +1145,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Computer Graphics",
-    ia_description: "A look at the new graphics tools available to computer users, both for amateurs and professionals.\nGuests: Marein Cremer, Apple; Mark Bola, Imagic; Stephen Rosendahl, Pacific Data Images; Ed Bernstein, Broderbund; James Dowlen, Computer Artist; Gary Kildall, Digital Research\nProducts/Demos: MacDrawMagic, Dazzle Draw, Lumena.\n\nOriginally broadcast in 1985. Copyright 1985 Stewart Cheifet Productions.",
+    ia_description: "A look at the new graphics tools available to computer users, both for amateurs and professionals.\nGuests: Marein Cremer, Apple; Mark Bola, Imagic; Stephen Rosendahl, Pacific Data Images; Ed Bernstein, Broderbund; James Dowlen, Computer Artist; Gary Kildall, Digital Research\nProducts/Demos: MacDrawMagic, Dazzle Draw, Lumena.\nOriginally broadcast in 1985. Copyright 1985 Stewart Cheifet Productions.",
     ia_broadcastyear: 1985,
     ia_identifier: "Computer1985_10",
     ia_year: 1985,
@@ -1305,7 +1305,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Computers and The Pentagon, Part 1",
-    ia_description: "The enemy is different but the technology is the same. We dug into our archives and found the U.S. military technology developed during the Cold War in a 1980's Computer Chronicles show is much the same technology now used in the U.S. war against terrorism.This program reviews the military uses of computer technology. Shot on location at various research centers around the country. Featured are the Robotics Institute at Carnegie Mellon University in Pittsburgh, Pennsylvania and Advanced Decision Systems in Mountain View, California. Demonstrations include the Pilot's Assistant and the Battlefield Commander's Assistant. Also flight and battle simulators from Singer Link. Guests include Raj Reddy, Director of the Robotics Institute at CMU. Originally broadcast in 1986. \n\n",
+    ia_description: "The enemy is different but the technology is the same. We dug into our archives and found the U.S. military technology developed during the Cold War in a 1980's Computer Chronicles show is much the same technology now used in the U.S. war against terrorism.This program reviews the military uses of computer technology. Shot on location at various research centers around the country. Featured are the Robotics Institute at Carnegie Mellon University in Pittsburgh, Pennsylvania and Advanced Decision Systems in Mountain View, California. Demonstrations include the Pilot's Assistant and the Battlefield Commander's Assistant. Also flight and battle simulators from Singer Link. Guests include Raj Reddy, Director of the Robotics Institute at CMU. Originally broadcast in 1986. \n",
     ia_broadcastyear: 1986,
     ia_identifier: "Computer2001_2",
     ia_date: "2001-11-13T00:00:00.000Z",
@@ -1313,7 +1313,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Computers and the Pentagon - Part 2",
-    ia_description: "A look at the uses of computer hardware and software in the Defense Department. Shot on location at various military installations around the country. Featured are demonstrations of SDI, the Strategic Defense Initiative, the AEGIS combat control system on board the USS Valley Forge advanced navy cruiser, and the Air Force's Advanced Sensory Exploitation System using distributed networks and artificial intelligence to detect enemy threats. Originally broadcast in 1986. \n\n",
+    ia_description: "A look at the uses of computer hardware and software in the Defense Department. Shot on location at various military installations around the country. Featured are demonstrations of SDI, the Strategic Defense Initiative, the AEGIS combat control system on board the USS Valley Forge advanced navy cruiser, and the Air Force's Advanced Sensory Exploitation System using distributed networks and artificial intelligence to detect enemy threats. Originally broadcast in 1986. \n",
     ia_broadcastyear: 1986,
     ia_identifier: "Computer2001_3",
     ia_subject: "military;pentagon;defense"
@@ -1925,7 +1925,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Intel 386 - The Fast Lane",
-    ia_description: "A review of the new Intel 386 chip and the new super-fast computers and applications that take advantage of its speed.\nGuests: Dana Krelle, Intel; Michael Swavely, Compaq; Robert Dilworth, Zenith; Neil Colvin, Phoenix Technologies; Jan Lewis, Palo Alto Research Group\nProducts/Demos: Compaq Deskpro 386, Intel 80386 Microprocessor, Zenith Z-386, VP/ix, UNIX 386. \n\nCopyright 1987 Stewart Cheifet Productions.",
+    ia_description: "A review of the new Intel 386 chip and the new super-fast computers and applications that take advantage of its speed.\nGuests: Dana Krelle, Intel; Michael Swavely, Compaq; Robert Dilworth, Zenith; Neil Colvin, Phoenix Technologies; Jan Lewis, Palo Alto Research Group\nProducts/Demos: Compaq Deskpro 386, Intel 80386 Microprocessor, Zenith Z-386, VP/ix, UNIX 386. \nCopyright 1987 Stewart Cheifet Productions.",
     ia_identifier: "Intel3861987",
     ia_year: 1987,
     ia_date: "1987-01-03T00:00:00.000Z",
@@ -2022,7 +2022,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Memory Problems",
-    ia_description: "If you were a DOS user back in the early 1990's, you had to deal with \"insufficient memory\" issues. Over and over again. This program looks at solutions for expanding computer memory. Demonstrations include how to install SIMMs, MemMaker, QAPlus for Windows, RAM Doubler 1.51, Quarterdeck's QEMM 7.5, Multimedia Cloaking Utility from Helix Software, and Netroom 3.0. Originally broadcast in 1995. \n\n",
+    ia_description: "If you were a DOS user back in the early 1990's, you had to deal with \"insufficient memory\" issues. Over and over again. This program looks at solutions for expanding computer memory. Demonstrations include how to install SIMMs, MemMaker, QAPlus for Windows, RAM Doubler 1.51, Quarterdeck's QEMM 7.5, Multimedia Cloaking Utility from Helix Software, and Netroom 3.0. Originally broadcast in 1995. \n",
     ia_broadcastyear: 1995,
     ia_identifier: "LosingMe",
     ia_subject: "memory;RAM;random access memory"
@@ -2425,7 +2425,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Profile of Big Blue - IBM",
-    ia_description: "An in-depth look at IBM, the IBM standard and the impact of its dominant role in the PC marketplace.\nGuests: Norm DeWitt, Dataquest; Tom Rolander, Intel; Stewart Alsop, InfoWorld; John Doerr, Kleiner Perkins Caufield; Gary Kildall, DRI\nProducts/Demos: IBM PC ATIBM TopView, CompuPro\n\nCopyright 1985 Stewart Cheifet Productions",
+    ia_description: "An in-depth look at IBM, the IBM standard and the impact of its dominant role in the PC marketplace.\nGuests: Norm DeWitt, Dataquest; Tom Rolander, Intel; Stewart Alsop, InfoWorld; John Doerr, Kleiner Perkins Caufield; Gary Kildall, DRI\nProducts/Demos: IBM PC ATIBM TopView, CompuPro\nCopyright 1985 Stewart Cheifet Productions",
     ia_identifier: "Profileo1985",
     ia_year: 1985,
     ia_date: "1985-03-19T00:00:00.000Z",
@@ -2785,7 +2785,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "The Macintosh Computer",
-    ia_description: "An in-depth look at the early Apple Macintosh computer, available software and hardware add-ons. Originally broadcast in 1985. Guests: Joanna Hoffman, Apple; Bob Foster, Telos Software; Lee Lorenzen, Digital Research; Ben Wiseman, InfoCorp; Gary Kildall, DRI; Larry Tesler, Apple\nProducts/Demos: Apple Macintosh, MacProject, FileVision, GEM DrawJazz. \n\nCopyright 1985 Stewart Cheifet Productions.",
+    ia_description: "An in-depth look at the early Apple Macintosh computer, available software and hardware add-ons. Originally broadcast in 1985. Guests: Joanna Hoffman, Apple; Bob Foster, Telos Software; Lee Lorenzen, Digital Research; Ben Wiseman, InfoCorp; Gary Kildall, DRI; Larry Tesler, Apple\nProducts/Demos: Apple Macintosh, MacProject, FileVision, GEM DrawJazz. \nCopyright 1985 Stewart Cheifet Productions.",
     ia_broadcastyear: 1985,
     ia_identifier: "TheMacin1985",
     ia_year: 1985,
@@ -3122,7 +3122,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "CD-ROM - Arabic",
-    ia_description: "Arabic subtitled version of this program. The advent of optical storage and CD-ROMs changed the rules for software applications and opened up a whole new generation of programs. Reviewed on this program are Encarta, the Association of Shareware Professionals CD-ROM collection, American Visions: 20th Century Art from the Neuberger Collection, Art Spiegelman's The Complete Maus from Voyager, Substance Digizine, and the new Broderbund game MYST. Originally broadcast in 1994. \n\n",
+    ia_description: "Arabic subtitled version of this program. The advent of optical storage and CD-ROMs changed the rules for software applications and opened up a whole new generation of programs. Reviewed on this program are Encarta, the Association of Shareware Professionals CD-ROM collection, American Visions: 20th Century Art from the Neuberger Collection, Art Spiegelman's The Complete Maus from Voyager, Substance Digizine, and the new Broderbund game MYST. Originally broadcast in 1994. \n",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc160_cdrom",
     episodeNumber: 160,
@@ -3130,7 +3130,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Foreign Language Software - Arabic",
-    ia_description: "Arabic subtitled version of this program. Markets are going global but schools are cutting back on foreign language instruction. The answer - foreign language software. This program reviews several new programs that teach or translate a foreign language. Incuded are Learn to Speak Spanish 4.0 from Hyperglot, German Assistant for Windows from Microtac, Power Japanese from Bayware, Video Linguist: Learn from French TV, Language Explorer from Nordic Software, and the Chinese Language Kit from Apple. Originally broadcast in 1994. \n\n",
+    ia_description: "Arabic subtitled version of this program. Markets are going global but schools are cutting back on foreign language instruction. The answer - foreign language software. This program reviews several new programs that teach or translate a foreign language. Incuded are Learn to Speak Spanish 4.0 from Hyperglot, German Assistant for Windows from Microtac, Power Japanese from Bayware, Video Linguist: Learn from French TV, Language Explorer from Nordic Software, and the Chinese Language Kit from Apple. Originally broadcast in 1994. \n",
     ia_broadcastyear: 1994,
     ia_identifier: "ar_cc161_foreign_language_software",
     episodeNumber: 161,
@@ -3252,7 +3252,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Windows 95 - Arabic",
-    ia_description: "Arabic subtitled version of this program. It was the biggest ever launch of a software product with stores opening at midnight and buyers around the world waiting to get their hands on... an operating system! It was Windows 95. This show looks at the hoopla surrounding the launch of Windows 95, the product itself, and several Windows 95 add-on products including Microsoft Office, Viking RAM Chips, Uninstaller, Trispectives Professional, and The Hive. Originally broadcast in 1995. \n\n\n\n",
+    ia_description: "Arabic subtitled version of this program. It was the biggest ever launch of a software product with stores opening at midnight and buyers around the world waiting to get their hands on... an operating system! It was Windows 95. This show looks at the hoopla surrounding the launch of Windows 95, the product itself, and several Windows 95 add-on products including Microsoft Office, Viking RAM Chips, Uninstaller, Trispectives Professional, and The Hive. Originally broadcast in 1995. \n",
     ia_broadcastyear: 1995,
     ia_identifier: "ar_cc190_windows_95",
     episodeNumber: 190,
@@ -3775,7 +3775,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Interactive Music - French",
-    ia_description: "French language version of this program. Computers and the digital revolution forever changed the world of music. This program looks at several new approaches to creating and sharing music. Demonstrations include Vid Grid, Sound Toy, William Orbit Strange Cargo, So You Want to be a Rock & Roll Star, Rock & Roll On Your Own, Dylan:Highway 61 Interactive, Video Jam, and Vivace. Also featured is a visit to Todd Rundgren's sound studio in Sausalito, California and a preview of his CD-ROM entitled \"No World Order\". Originally broadcast in 1995. \n\n",
+    ia_description: "French language version of this program. Computers and the digital revolution forever changed the world of music. This program looks at several new approaches to creating and sharing music. Demonstrations include Vid Grid, Sound Toy, William Orbit Strange Cargo, So You Want to be a Rock & Roll Star, Rock & Roll On Your Own, Dylan:Highway 61 Interactive, Video Jam, and Vivace. Also featured is a visit to Todd Rundgren's sound studio in Sausalito, California and a preview of his CD-ROM entitled \"No World Order\". Originally broadcast in 1995. \n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc175_interactive_music",
     episodeNumber: 175,
@@ -3790,7 +3790,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "OS-2 Warp - French",
-    ia_description: "French language version of this program. In the mid 1990's, it wasn't yet an all Windows world. A battle was on between Microsoft's Windows and IBM's OS/2. This program compared the two operating systems and various add-ons for Windows and OS/2. Products demonstrated include Windows 95, OS/2 Warp, Voice Pilot for OS/2, and Colorworks for OS/2. Guests include IBM's David Barnes and syndicated columnist Dan Gillmor. Originally broadcast in 1995. \n\n",
+    ia_description: "French language version of this program. In the mid 1990's, it wasn't yet an all Windows world. A battle was on between Microsoft's Windows and IBM's OS/2. This program compared the two operating systems and various add-ons for Windows and OS/2. Products demonstrated include Windows 95, OS/2 Warp, Voice Pilot for OS/2, and Colorworks for OS/2. Guests include IBM's David Barnes and syndicated columnist Dan Gillmor. Originally broadcast in 1995. \n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc180_os-2_warp",
     episodeNumber: 180,
@@ -3798,7 +3798,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "PC Video - French",
-    ia_description: "French language version of this program. The digital video revolution started to take hold in the mid nineties. This program looks at early examples of desktop video products. Demonstrations include QuickTime VR, Sigma Designs MPEG video, Video Director, Avid Video Shop, Video Machine Lite, Radius Edit, Video Vision, SGI's Set Top Box, CyberLab7, and QuickTime Conferencing. Originally broadcast in 1995. \n\n",
+    ia_description: "French language version of this program. The digital video revolution started to take hold in the mid nineties. This program looks at early examples of desktop video products. Demonstrations include QuickTime VR, Sigma Designs MPEG video, Video Director, Avid Video Shop, Video Machine Lite, Radius Edit, Video Vision, SGI's Set Top Box, CyberLab7, and QuickTime Conferencing. Originally broadcast in 1995. \n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc185_pc_video",
     episodeNumber: 185,
@@ -3849,7 +3849,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Computers and Health Care  - French",
-    ia_description: "French language version of this program. A look at how the health care industry is using computer technology. Products demonstrated include The Doctor's Book of Home Remedies, Multimedia Workout, DynaPulse 200M, The Family Doctor, Stanford University's Pain Clinic, and I-3 Design's Stretchercise. Originally broadcast in 1995. \n\n",
+    ia_description: "French language version of this program. A look at how the health care industry is using computer technology. Products demonstrated include The Doctor's Book of Home Remedies, Multimedia Workout, DynaPulse 200M, The Family Doctor, Stanford University's Pain Clinic, and I-3 Design's Stretchercise. Originally broadcast in 1995. \n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc193_computers_and_health_care",
     episodeNumber: 193,
@@ -3857,7 +3857,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Mac Clones and Mac OS Update - French",
-    ia_description: "French language version of this program. In the post Steve Jobs era, Apple started licensing other companies to produce Macintosh clones. And there was a new Mac operating system 8.0, code named Copland. This program looks at the new Mac clones and the new OS. Products demonstrated include the System 100 from Radius, the Genesis MP from DayStar Digital, and the Power 100 from Power Computing. Applications demonstrated include Adobe Photoshop and Personal Oracle 7. Also featured are the new Apple Macintosh 7100 and 8100 models. Originally broadcast in 1995. \n\n",
+    ia_description: "French language version of this program. In the post Steve Jobs era, Apple started licensing other companies to produce Macintosh clones. And there was a new Mac operating system 8.0, code named Copland. This program looks at the new Mac clones and the new OS. Products demonstrated include the System 100 from Radius, the Genesis MP from DayStar Digital, and the Power 100 from Power Computing. Applications demonstrated include Adobe Photoshop and Personal Oracle 7. Also featured are the new Apple Macintosh 7100 and 8100 models. Originally broadcast in 1995. \n",
     ia_broadcastyear: 1995,
     ia_identifier: "fr_cc202_mac_os_updated",
     episodeNumber: 202,
@@ -3865,7 +3865,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Smart TV - French",
-    ia_description: "French language version of this program. Convergence was the buzz word of 1995 as analysts predicted the computer and the television set would merge into one box. One aspect of this convergence was the so-called Smart TV. This program demonstrates some examples including the Malachi board which lets you download software into your PC using a standard broadcast signal (not a cable modem), Microware's DAVID (Digital Audio Video Interactive Decoder), HP's Kayak set top box, Philips' DET100 set top box, the Stellar set top box, DIVICOM's set top box, and Oracle's video authoring tools. Originally broadcast in October 1995. \n\n",
+    ia_description: "French language version of this program. Convergence was the buzz word of 1995 as analysts predicted the computer and the television set would merge into one box. One aspect of this convergence was the so-called Smart TV. This program demonstrates some examples including the Malachi board which lets you download software into your PC using a standard broadcast signal (not a cable modem), Microware's DAVID (Digital Audio Video Interactive Decoder), HP's Kayak set top box, Philips' DET100 set top box, the Stellar set top box, DIVICOM's set top box, and Oracle's video authoring tools. Originally broadcast in October 1995. \n",
     ia_identifier: "fr_cc203_smart_tv",
     episodeNumber: 203,
     ia_subject: "convergence; television;HP; Philips; Microware;divicom; oracle"
@@ -4099,7 +4099,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Notebook Computers",
-    ia_description: "A review of the state of the art in notebook computers. Featured products include the AST Premium Exec 386SX/25, the NCR Safari, IBM's ThinkPad 700C, Compaq's Contura 3/25C, and the GRiD Convertible. Also coverage of new notebook introductions at fall Comdex. Originally broadcast in 1992. \n\n",
+    ia_description: "A review of the state of the art in notebook computers. Featured products include the AST Premium Exec 386SX/25, the NCR Safari, IBM's ThinkPad 700C, Compaq's Contura 3/25C, and the GRiD Convertible. Also coverage of new notebook introductions at fall Comdex. Originally broadcast in 1992. \n",
     ia_broadcastyear: 1992,
     ia_identifier: "notebooks_2",
     ia_subject: "notebooks;portables;laptops"
@@ -4138,7 +4138,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Computers & the Pentagon - Part Two",
-    ia_description: "A 1991 rebroadcast, during the first Gulf War, of a program looking at the uses of computer hardware and software in the Defense Department. Shot on location at various military installations around the country. Featured are demonstrations of SDI, the Strategic Defense Initiative, the AEGIS combat control system on board the USS Valley Forge advanced navy cruiser, and the Air Force's Advanced Sensory Exploitation System using distributed networks and artificial intelligence to detect enemy threats. Originally broadcast in 1986. \n\n",
+    ia_description: "A 1991 rebroadcast, during the first Gulf War, of a program looking at the uses of computer hardware and software in the Defense Department. Shot on location at various military installations around the country. Featured are demonstrations of SDI, the Strategic Defense Initiative, the AEGIS combat control system on board the USS Valley Forge advanced navy cruiser, and the Air Force's Advanced Sensory Exploitation System using distributed networks and artificial intelligence to detect enemy threats. Originally broadcast in 1986. \n",
     ia_broadcastyear: 1986,
     ia_identifier: "pentagon2",
     ia_subject: "military;defense;SFI"
@@ -4167,13 +4167,13 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess",
     ia_subject: "random access;news;computer chronicles"
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess_10",
     ia_subject: "random access;computer news;computer chronicles"
 },
@@ -4203,7 +4203,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess_15",
     ia_subject: "news;computer chronicles;random access"
 },
@@ -4227,37 +4227,37 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess_2",
     ia_subject: "random access;news;computer chronicles"
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess_3",
     ia_subject: "news;computer chronicles;random access"
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess_4",
     ia_subject: "news;random access;computer chronicles"
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess_5",
     ia_subject: "news;computer"
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess_6",
     ia_subject: "news;computer chronicles;random access"
 },
 {
     ia_title: "Random Access",
-    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n\n",
+    ia_description: "For the first fifteen years of the Computer Chronicles, when it was still hard to find technology news on television, each episode would end with a five minute summary of the week's personal computer news. Reporters presenting Random Access each week included Maria Gabriel, Kate Megargee, Cynthia Steele, Wendy Woods, Janelle Stelson, and Laurie Anderson. These are examples of some of those broadcasts. Many others are found at the end of Computer Chronicles episodes archived on this site. \n",
     ia_identifier: "randomaccess_7",
     ia_subject: "random access;computer chronicles;computer news"
 },
@@ -4305,7 +4305,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Macworld Expo Boston 1994 - Spanish",
-    ia_description: "Spanish language version of this program. On location coverage of the annual Boston MacWorld Expo. Guests include analyst Tim Bajarin and writer Stewart Alsop. New products covered include System 7.5, WordPerfect for Mac, Claris Office Suite, PowerBook, Loga Vista, Newton, Visioneer, Wacom Tablet, Hyperglot, Opcode Systems, and Solustan. Originally broadcast in 1994. \n\n",
+    ia_description: "Spanish language version of this program. On location coverage of the annual Boston MacWorld Expo. Guests include analyst Tim Bajarin and writer Stewart Alsop. New products covered include System 7.5, WordPerfect for Mac, Claris Office Suite, PowerBook, Loga Vista, Newton, Visioneer, Wacom Tablet, Hyperglot, Opcode Systems, and Solustan. Originally broadcast in 1994. \n",
     ia_broadcastyear: 1994,
     ia_identifier: "sp_cc165_macworld_expo",
     episodeNumber: 165,
@@ -4376,7 +4376,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Gary Kildall Special - Spanish",
-    ia_description: "Spanish language version of this show. A profile on computer pioneer Gary Kildall and the important contributions he made to the PC industry including the true story on how IBM ended up using MS-DOS rather than CP/M. Kildall developed CP/M, the first personal computer operating system. He was also a co-host on the early Computer Chronicles series. Includes comments by Gordon Eubanks, Symantec; Tom Rolander, DRI; Tim Bajarin, Creative Strategies; Lee Lorenzen, DRI; Jacqui Morby, TA Associates; Alan Cooper, CP/M applications developer. Originally broadcast in 1995. \n\n",
+    ia_description: "Spanish language version of this show. A profile on computer pioneer Gary Kildall and the important contributions he made to the PC industry including the true story on how IBM ended up using MS-DOS rather than CP/M. Kildall developed CP/M, the first personal computer operating system. He was also a co-host on the early Computer Chronicles series. Includes comments by Gordon Eubanks, Symantec; Tom Rolander, DRI; Tim Bajarin, Creative Strategies; Lee Lorenzen, DRI; Jacqui Morby, TA Associates; Alan Cooper, CP/M applications developer. Originally broadcast in 1995. \n",
     ia_broadcastyear: 1995,
     ia_identifier: "sp_cc189_gary_kildall_special",
     episodeNumber: 189,
@@ -4424,7 +4424,7 @@ const iaMetadata: IAMetadata[] = [{
 },
 {
     ia_title: "Computers and Kids - Spanish",
-    ia_description: "Spanish language version of this program. A look at how children use computers at home and at school. Products demonstrated include The Amazing Writing Machine from Broderbund, How Would You Survive, from Grolier Electronic Publishing, and 3D Atlas from Creative Wonders. Also reviews of several kid oriented web sites such as kidlink.org, nbn.com/youcan, batnet.com, and Kids Only on AOL (search word Kids). Originally broadcast in 1996. \n\n",
+    ia_description: "Spanish language version of this program. A look at how children use computers at home and at school. Products demonstrated include The Amazing Writing Machine from Broderbund, How Would You Survive, from Grolier Electronic Publishing, and 3D Atlas from Creative Wonders. Also reviews of several kid oriented web sites such as kidlink.org, nbn.com/youcan, batnet.com, and Kids Only on AOL (search word Kids). Originally broadcast in 1996. \n",
     ia_broadcastyear: 1996,
     ia_identifier: "sp_cc206_komputer_kids",
     episodeNumber: 206,

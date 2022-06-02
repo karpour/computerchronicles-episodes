@@ -1,15 +1,28 @@
-import { CCEpisodeMetadata } from "./metadata/CCEpisodeMetadata";
-import iaMetadata, { IAMetadata } from "./metadata/InternetArchiveMetadata";
-import { dateToYYYYMMDD } from "./dateToYYYYMMDD";
+
+import iaMetadata, { IAMetadata } from "./metadata/IAEpisodeMetadata";
+import dateToYYYYMMDD from "./dateToYYYYMMDD";
 import removeDuplicates from "./removeDuplicates";
 
-export function processIAItems(items: IAMetadata[]): CCEpisodeMetadata[] {
-    let iaProcessed: CCEpisodeMetadata[] = [];
+export type ProcessedIAMetadata = {
+    airing_date?: string;
+    ia_description?: string;
+    ia_title: string;
+    episode_number?: number;
+    episode_title: string;
+    tags: string[];
+    possible_years: number[];
+    ia_identifier: string;
+};
+
+
+
+export function processIAItems(items: IAMetadata[]): ProcessedIAMetadata[] {
+    let iaProcessed: ProcessedIAMetadata[] = [];
     items.forEach(item => processIAItem(item, iaProcessed));
     return iaProcessed;
 }
 
-export function processIAItem(item: IAMetadata, output: CCEpisodeMetadata[]) {
+export function processIAItem(item: IAMetadata, output: ProcessedIAMetadata[]) {
     let tags: string[] = [];
 
     if (item.ia_title.endsWith("Spanish") || item.ia_title.endsWith("French") || item.ia_title.endsWith("Arabic") || item.ia_identifier.startsWith("randomaccess"))
@@ -37,27 +50,18 @@ export function processIAItem(item: IAMetadata, output: CCEpisodeMetadata[]) {
     }
 
     //console.log(`${item.ia_identifier} | ${item.ia_title}`);
-    let episodeYear: number | undefined;
-    if (date) {
-        episodeYear = date.getFullYear();
-    } else if (years.length == 1) {
-        episodeYear = years[0];
-    }
 
-    let possibleYears: number[] = years.length > 1 ? years : [];
-
-    let out: CCEpisodeMetadata = {
-        iaIdentifier: item.ia_identifier,
-        airingDate: date ? dateToYYYYMMDD(date) : undefined,
-        episodeNumber: item.episodeNumber,
-        episodeTitle: item.ia_title,
-        episodeYear: episodeYear,
-        possibleYears: possibleYears,
-        featuredProducts: [],
-        guests: [],
+    let out: ProcessedIAMetadata = {
+        ia_identifier: item.ia_identifier,
+        ia_description: item.ia_description,
+        airing_date: date ? dateToYYYYMMDD(date) : undefined,
+        episode_number: item.episodeNumber,
+        episode_title: item.ia_title,
+        possible_years: years,
         tags: tags,
+        ia_title: item.ia_title,
     };
 
-    console.log(out);
+    //console.log(out);
     output.push(out);
 }
